@@ -1,0 +1,43 @@
+EMAIL_ID: 1
+SUBJECT: Congratulations! You won a prize
+BODY: Congratulations! You have won a FREE prize. Click here to claim your reward immediately.
+
+EMAIL_ID: 2
+SUBJECT: Project Meeting Tomorrow
+BODY: Hi team, our project meeting is scheduled for tomorrow at 10 AM. Please bring your project updates.
+
+EMAIL_ID: 3
+SUBJECT: Urgent Account Verification
+BODY: Your account will be closed. Click here immediately to verify your account and claim your reward.
+
+EMAIL_ID: 4
+SUBJECT: Discount Offer
+BODY: Get a special discount on our products. This offer is available for a limited time.
+
+EMAIL_ID: 5
+SUBJECT: Assignment Submission
+BODY: Please submit your DSA assignment before Friday. Make sure all the required files are included.
+
+EMAIL_ID: 6
+SUBJECT: You are a lottery winner
+BODY: Congratulations! You are the lucky winner of our lottery. Send your bank details to claim the cash prize.
+
+EMAIL_ID: 7
+SUBJECT: Team Lunch
+BODY: We are planning a team lunch this Saturday. Please let us know if you will be joining.
+
+EMAIL_ID: 8
+SUBJECT: Password Verification Required
+BODY: Your account needs immediate verification. Click here and enter your password to avoid account suspension.
+
+EMAIL_ID: 9
+SUBJECT: Free Gift Card
+BODY: Congratulations! You have received a free gift card. Click here to claim your reward.
+
+EMAIL_ID: 10
+SUBJECT: Class Schedule
+BODY: The next DSA class will be held on Monday at 9 AM.
+
+EMAIL_ID: 11
+SUBJECT: Account Security Alert
+BODY: Your account has been suspended. Verify your password immediately.

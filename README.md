@@ -99,6 +99,6 @@ EmailSpamAnalysis/
 │   ├── SpamCategory.java
 │   └── ReportGenerator.java
 │
-├── data/
+└── data/
     ├── emails.txt
     └── spam_keywords.txt

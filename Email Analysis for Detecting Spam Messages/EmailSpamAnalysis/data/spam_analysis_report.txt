@@ -1,0 +1,89 @@
+==============================================
+        EMAIL SPAM ANALYSIS REPORT
+==============================================
+
+----------------------------------------------
+Email ID      : user12@gmail.com
+Message ID    : 1
+Subject       : Lottery winner notification
+Classification: SPAM
+Category      : PRIZE SCAM
+Confidence    : 100.00%
+Risk Level    : HIGH
+Spam Score    : 12
+Keywords      : [lottery, lottery winner, winner, cash prize, immediately]
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user12@gmail.com
+Message ID    : 2
+Subject       : Leave request discussion
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user12@gmail.com
+Message ID    : 3
+Subject       : Work from home opportunity
+Classification: SPAM
+Category      : GENERAL SPAM
+Confidence    : 100.00%
+Risk Level    : HIGH
+Spam Score    : 12
+Keywords      : [work from home, extra income, income from home, register now]
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user12@gmail.com
+Message ID    : 4
+Subject       : Project files updated
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user12@gmail.com
+Message ID    : 5
+Subject       : Instant loan approved
+Classification: SPAM
+Category      : GENERAL SPAM
+Confidence    : 66.67%
+Risk Level    : HIGH
+Spam Score    : 8
+Keywords      : [instant loan, apply now]
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user12@gmail.com
+Message ID    : 6
+Subject       : Password verification required
+Classification: SPAM
+Category      : PROMOTIONAL / CLICK SPAM
+Confidence    : 100.00%
+Risk Level    : HIGH
+Spam Score    : 12
+Keywords      : [password verification, click here, immediately]
+URLs           : None
+Suspicious URLs: None
+
+==============================================
+SUMMARY
+==============================================
+Total Messages : 6
+Spam Messages  : 4
+Not Spam       : 2
+Spam Percentage: 66.67%

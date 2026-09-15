@@ -34,7 +34,7 @@ public class ParallelEmailProcessor {
                         "Thread: "
                                 + Thread.currentThread().getName()
                                 + " -> Email ID: "
-                                + email.getId()
+                                + email.getEmailId()
                                 + " processed"
                 );
             });

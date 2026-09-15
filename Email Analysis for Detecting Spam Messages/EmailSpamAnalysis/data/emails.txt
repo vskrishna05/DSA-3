@@ -1,43 +1,3744 @@
-EMAIL_ID: 1
-SUBJECT: Congratulations! You won a prize
-BODY: Congratulations! You have won a FREE prize. Click here to claim your reward immediately.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
 
-EMAIL_ID: 2
-SUBJECT: Project Meeting Tomorrow
-BODY: Hi team, our project meeting is scheduled for tomorrow at 10 AM. Please bring your project updates.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
 
-EMAIL_ID: 3
-SUBJECT: Urgent Account Verification
-BODY: Your account will be closed. Click here immediately to verify your account and claim your reward.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
 
-EMAIL_ID: 4
-SUBJECT: Discount Offer
-BODY: Get a special discount on our products. This offer is available for a limited time.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
 
-EMAIL_ID: 5
-SUBJECT: Assignment Submission
-BODY: Please submit your DSA assignment before Friday. Make sure all the required files are included.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
 
-EMAIL_ID: 6
-SUBJECT: You are a lottery winner
-BODY: Congratulations! You are the lucky winner of our lottery. Send your bank details to claim the cash prize.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
 
-EMAIL_ID: 7
-SUBJECT: Team Lunch
-BODY: We are planning a team lunch this Saturday. Please let us know if you will be joining.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
 
-EMAIL_ID: 8
-SUBJECT: Password Verification Required
-BODY: Your account needs immediate verification. Click here and enter your password to avoid account suspension.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
 
-EMAIL_ID: 9
-SUBJECT: Free Gift Card
-BODY: Congratulations! You have received a free gift card. Click here to claim your reward.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
 
-EMAIL_ID: 10
-SUBJECT: Class Schedule
-BODY: The next DSA class will be held on Monday at 9 AM.
+EMAIL_ID: user1@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
 
-EMAIL_ID: 11
-SUBJECT: Account Security Alert
-BODY: Your account has been suspended. Verify your password immediately.
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user2@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user3@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user3@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user3@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user3@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user3@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user3@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user3@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user4@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user6@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user6@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user6@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user6@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user6@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user6@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user7@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user8@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user8@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user8@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user8@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user8@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user8@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user8@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user8@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user9@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user9@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user9@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user9@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user9@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user9@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user10@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user10@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user10@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user10@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user10@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user10@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user11@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user11@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user11@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user11@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user11@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user11@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user12@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user12@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user12@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user12@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user12@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user12@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user13@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user13@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user13@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user13@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user13@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user13@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user14@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user14@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user14@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user14@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user14@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user15@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user16@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user17@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user17@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user17@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user17@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user17@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user18@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user18@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user18@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user18@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user18@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user19@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user19@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user19@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user19@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user19@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user19@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user20@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user20@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user20@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user20@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user20@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user20@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user21@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user21@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user21@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user21@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user21@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user21@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user21@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user21@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user22@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user22@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user22@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user22@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user22@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user23@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user23@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user23@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user23@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user23@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user23@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user24@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user25@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user25@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user25@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user25@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user25@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user25@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user25@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user26@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user27@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user27@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user27@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user27@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user27@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user27@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user27@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user27@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user27@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user28@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user28@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user28@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user28@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user28@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user28@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user29@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user29@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user29@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user29@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user29@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user30@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user30@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user30@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user30@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user30@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user30@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user30@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user31@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user31@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user31@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user31@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user31@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user31@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user31@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user32@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user33@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user33@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user33@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user33@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user33@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user33@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user33@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user33@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user34@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user34@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user34@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user34@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user34@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user35@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user35@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user35@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user35@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user35@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user35@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user35@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user35@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user35@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user36@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user36@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user36@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user36@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user36@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user37@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user37@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user37@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user37@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user37@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user37@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user37@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user37@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user37@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user38@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user38@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user38@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user38@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user38@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user38@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user38@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user39@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user39@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user39@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user39@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user39@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user39@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user40@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user40@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user40@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user40@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user40@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user40@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user40@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user40@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user40@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user41@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user41@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user41@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user41@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user41@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user41@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user41@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user41@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user41@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user42@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user42@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user42@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user42@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user42@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user42@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user42@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user43@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user43@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user43@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user43@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user43@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user44@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user44@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user44@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user44@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user44@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user44@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user44@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user44@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user44@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user45@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user45@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user45@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user45@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user45@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user46@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user47@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user47@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user47@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user47@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user47@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user47@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user47@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user47@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user48@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user48@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user48@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user48@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user48@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user48@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user48@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user48@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user49@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user49@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user49@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user49@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user49@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user49@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user49@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user49@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user50@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user50@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user50@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user50@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user50@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user50@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user50@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user50@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user51@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user52@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user53@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user53@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user53@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user53@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user53@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user53@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user54@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user54@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user54@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user54@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user54@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user54@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user54@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user54@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user55@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user55@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user55@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user55@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user55@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user55@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user55@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user55@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user55@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user56@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user56@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user56@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user56@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user56@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user56@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user56@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user56@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user57@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user57@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user57@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user57@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user57@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user57@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user57@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user57@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user58@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user58@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user58@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user58@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user58@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user58@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user59@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user59@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user59@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user59@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user59@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user59@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user59@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user59@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user59@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user60@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user60@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user60@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user60@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user60@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user60@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user60@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user60@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user60@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user61@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user62@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user62@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user62@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user62@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user62@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user63@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user63@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user63@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user63@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user63@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user63@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user63@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user63@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user64@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user65@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user65@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user65@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user65@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user65@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user66@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user66@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user66@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user66@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user66@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user66@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user66@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user66@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user66@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user67@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user67@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user67@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user67@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user67@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user67@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user67@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user68@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user68@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user68@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user68@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user68@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user68@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user68@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user68@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user69@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user69@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user69@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user69@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user69@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user69@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user69@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user69@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user69@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user70@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user70@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user70@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user70@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user70@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user70@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user70@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user70@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user71@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user71@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user71@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user71@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user71@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user71@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user71@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user71@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user72@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user72@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user72@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user72@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user72@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user72@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user72@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user73@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user73@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user73@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user73@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user73@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user73@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user73@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user74@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user74@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user74@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user74@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user74@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user74@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user74@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user74@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user74@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user75@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user75@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user75@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user75@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user75@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user76@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user76@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user76@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user76@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user76@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user77@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user78@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user78@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user78@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user78@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user78@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user78@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user78@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user78@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user79@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user79@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user79@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user79@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user79@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user80@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user80@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user80@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user80@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user80@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user80@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user81@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user81@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user81@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user81@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user81@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user81@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user81@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user82@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user82@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user82@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user82@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user82@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user82@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user82@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user83@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user83@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user83@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user83@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user83@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user83@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user83@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user83@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user83@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user84@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user84@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user84@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user84@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user84@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user84@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user84@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user84@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user84@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user85@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user86@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user86@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user86@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user86@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user86@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user87@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user88@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user88@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user88@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user88@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user88@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user89@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user89@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user89@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user89@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user89@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user90@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user90@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user90@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Notes for tomorrow
+BODY: I will bring the printed notes tomorrow. You can collect your copy after class.
+
+EMAIL_ID: user90@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user90@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user91@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user91@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user91@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user91@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user91@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user91@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user91@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user92@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user92@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user92@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user92@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user92@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user92@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user92@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user93@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user93@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user93@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user93@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user93@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user93@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user93@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user94@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user94@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user94@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user94@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user94@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user94@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Guaranteed profit opportunity
+BODY: Invest now and earn guaranteed profit. This special investment opportunity is available for a limited time.
+
+EMAIL_ID: user94@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user95@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user95@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Urgent account verification required
+BODY: Your account needs urgent verification. Click here and verify your account to avoid account suspension.
+
+EMAIL_ID: user95@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user95@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user95@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user96@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user96@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user96@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user96@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user96@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user96@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user96@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user96@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Meeting room changed
+BODY: Today's meeting will be held in Room 204 instead of Room 105. The meeting time remains unchanged.
+
+EMAIL_ID: user96@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user97@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Project meeting schedule
+BODY: The project meeting is scheduled for tomorrow at 10 AM. Please bring your progress update.
+
+EMAIL_ID: user97@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Class notes shared
+BODY: I have shared the class notes from today's lecture. Please check them when you have time.
+
+EMAIL_ID: user97@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Instant loan approved
+BODY: Your instant loan has been approved. Apply now and receive your money quickly with minimal documentation.
+
+EMAIL_ID: user97@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project update
+BODY: The project is progressing well. We completed the current module and will start testing next week.
+
+EMAIL_ID: user97@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user97@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user97@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user97@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Library book reminder
+BODY: This is a reminder that the library book is due next Monday. Please return it on time.
+
+EMAIL_ID: user97@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user98@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Lottery winner notification
+BODY: You are a lottery winner. Claim your cash prize immediately by confirming your details.
+
+EMAIL_ID: user98@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user98@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user98@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user98@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Team lunch this Saturday
+BODY: We are planning a team lunch this Saturday. Let me know if you can join us.
+
+EMAIL_ID: user98@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Limited time discount offer
+BODY: Get a special discount offer today. Click here to claim your reward before this limited time offer expires.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Congratulations! You won a free prize
+BODY: Congratulations! You have been selected as a winner. Claim your free prize now before the offer expires.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Work from home opportunity
+BODY: Earn extra income from home with this special opportunity. Register now to start earning money.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Weekend plans
+BODY: Are we still planning to visit the new cafe this weekend? Let me know what time works for you.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 6
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Important security alert
+BODY: Suspicious activity was detected on your account. Verify your details immediately to secure your account.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 8
+SUBJECT: Cash reward notification
+BODY: You have been selected for a cash reward. Confirm your information now to receive your money.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Team presentation details
+BODY: The presentation has been moved to Wednesday. Please prepare your assigned section before the meeting.
+
+EMAIL_ID: user99@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Free gift card available
+BODY: You have been selected for a free gift card. Click here to claim your voucher before the offer expires.
+
+EMAIL_ID: user100@gmail.com
+MESSAGE_ID: 1
+SUBJECT: Assignment submission reminder
+BODY: Please submit the assignment before Friday evening. Make sure the required files are included.
+
+EMAIL_ID: user100@gmail.com
+MESSAGE_ID: 2
+SUBJECT: Exclusive reward waiting for you
+BODY: You have an exclusive reward waiting for you. Claim your bonus now before it is no longer available.
+
+EMAIL_ID: user100@gmail.com
+MESSAGE_ID: 3
+SUBJECT: Password verification required
+BODY: Your account password needs verification. Click here immediately to confirm your password and prevent account closure.
+
+EMAIL_ID: user100@gmail.com
+MESSAGE_ID: 4
+SUBJECT: Project files updated
+BODY: I uploaded the latest project files to the shared folder. Please review the changes.
+
+EMAIL_ID: user100@gmail.com
+MESSAGE_ID: 5
+SUBJECT: Leave request discussion
+BODY: I need to take leave next Friday. I will finish my pending work before then.
+
+EMAIL_ID: user5@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Leave
+BODY: I need a two days leave boss.

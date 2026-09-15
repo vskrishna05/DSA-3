@@ -1,16 +1,25 @@
 public class Email {
-    private int id;
+
+    private String emailId;
+    private int messageId;
     private String subject;
     private String body;
 
-    public Email(int id, String subject, String body) {
-        this.id = id;
+    public Email(String emailId, int messageId,
+                 String subject, String body) {
+
+        this.emailId = emailId;
+        this.messageId = messageId;
         this.subject = subject;
         this.body = body;
     }
 
-    public int getId() {
-        return id;
+    public String getEmailId() {
+        return emailId;
+    }
+
+    public int getMessageId() {
+        return messageId;
     }
 
     public String getSubject() {
@@ -27,8 +36,9 @@ public class Email {
 
     @Override
     public String toString() {
-        return "Email ID: " + id +
-               "\nSubject: " + subject +
-               "\nBody: " + body;
+
+        return "Message " + messageId +
+                "\nSubject: " + subject +
+                "\nBody: " + body;
     }
 }

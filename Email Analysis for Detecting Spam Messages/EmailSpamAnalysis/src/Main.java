@@ -1,29 +1,29 @@
 import java.util.*;
+import java.io.*;
 
 public class Main {
 
     public static void main(String[] args) {
 
         String filePath = "data/emails.txt";
+        String keywordPath = "data/spam_keywords.txt";
 
-        List<Email> emails =
-                EmailReader.readEmails(filePath);
+        Scanner scanner = new Scanner(System.in);
 
         // ==========================================
-        // SPAM PATTERNS
+        // LOAD SPAM KEYWORDS AND ANALYSIS DATA
         // ==========================================
 
         List<String> keywordList =
-        EmailReader.readSpamKeywords(
-                "data/spam_keywords.txt"
-        );
+                EmailReader.readSpamKeywords(keywordPath);
 
-String[] spamPatterns =
-        keywordList.toArray(new String[0]);
+        String[] spamPatterns =
+                keywordList.toArray(new String[0]);
 
-        int[] featureScores = {
-            5, 4, 5, 3, 5, 5, 4, 4
-        };
+        int[] featureScores =
+                new int[spamPatterns.length];
+
+        Arrays.fill(featureScores, 4);
 
         AhoCorasick ahoCorasick =
                 new AhoCorasick(spamPatterns);
@@ -32,279 +32,370 @@ String[] spamPatterns =
                 createSpamRules();
 
         // ==========================================
-        // PROJECT HEADER
+        // MAIN MENU
         // ==========================================
 
-        System.out.println();
-        System.out.println("==============================================");
-        System.out.println("        EMAIL SPAM ANALYSIS SYSTEM");
-        System.out.println("==============================================");
-        System.out.println(
-                "Total Emails : " + emails.size()
-        );
+        while (true) {
 
-        // ==========================================
-        // ALGORITHMS USED
-        // ==========================================
-
-        System.out.println();
-        System.out.println("----------------------------------------------");
-        System.out.println("ALGORITHMS USED");
-        System.out.println("----------------------------------------------");
-
-        System.out.println("1. KMP");
-        System.out.println("2. Rabin-Karp");
-        System.out.println("3. Z-Algorithm");
-        System.out.println("4. Aho-Corasick");
-        System.out.println("5. Bitmask DP");
-        System.out.println("6. Edmonds-Karp");
-        System.out.println("7. Greedy Set Cover");
-        System.out.println("8. Randomized Hashing");
-        System.out.println("9. Parallel Processing");
-
-        // ==========================================
-        // SELECT ANALYSIS MODE
-        // ==========================================
-
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println();
-        System.out.println("----------------------------------------------");
-        System.out.println("SELECT ANALYSIS MODE");
-        System.out.println("----------------------------------------------");
-
-        // Display all emails dynamically
-        for (int i = 1; i <= emails.size(); i++) {
-
-            System.out.println(
-                    i + ". Analyze Email " + i
-            );
-        }
-
-        System.out.println(
-                "A. Analyze All Emails"
-        );
-
-        System.out.println(
-                "M. Select Multiple Emails"
-        );
-
-        System.out.println(
-                "0. Exit"
-        );
-
-        System.out.println("----------------------------------------------");
-
-        System.out.print(
-                "Enter your choice : "
-        );
-
-        String choice =
-                scanner.nextLine().trim();
-
-        // ==========================================
-        // EXIT
-        // ==========================================
-
-        if (choice.equals("0")) {
+            List<Email> emails =
+                    EmailReader.readEmails(filePath);
 
             System.out.println();
-            System.out.println(
-                    "Thank you for using Email Spam Analysis System."
-            );
+            System.out.println("==============================================");
+            System.out.println("        EMAIL SPAM ANALYSIS SYSTEM");
+            System.out.println("==============================================");
 
-            scanner.close();
-            return;
-        }
+            System.out.print("Enter Email ID: ");
 
-        // ==========================================
-        // SELECT EMAILS
-        // ==========================================
+            String emailId =
+                    scanner.nextLine().trim();
 
-        List<Email> selectedEmails =
-                new ArrayList<>();
+            // ==========================================
+            // EXIT PROGRAM
+            // ==========================================
 
-        // ==========================================
-        // SINGLE EMAIL
-        // ==========================================
-
-        try {
-
-            int emailNumber =
-                    Integer.parseInt(choice);
-
-            if (emailNumber >= 1 &&
-                    emailNumber <= emails.size()) {
-
-                selectedEmails.add(
-                        emails.get(emailNumber - 1)
-                );
-
-            } else {
+            if (emailId.equalsIgnoreCase("0")) {
 
                 System.out.println();
                 System.out.println(
-                        "Invalid choice."
-                );
-
-                System.out.println(
-                        "Please enter a number from 1 to "
-                                + emails.size()
-                                + ", A, M, or 0."
+                        "Thank you for using Email Spam Analysis System."
                 );
 
                 scanner.close();
                 return;
             }
 
-        } catch (NumberFormatException e) {
-
             // ==========================================
-            // ANALYZE ALL EMAILS
+            // FIND EMAIL ID
             // ==========================================
 
-            if (choice.equalsIgnoreCase("A")) {
+            List<Email> userMessages =
+                    EmailReader.getMessagesForEmail(
+                            emails,
+                            emailId
+                    );
 
-                selectedEmails.addAll(emails);
+            if (userMessages.isEmpty()) {
+
+                System.out.println();
+                System.out.println("Email ID not found.");
+                System.out.println(
+                        "Please enter an existing Email ID."
+                );
+
+                continue;
             }
 
             // ==========================================
-            // SELECT MULTIPLE EMAILS
+            // EMAIL MENU
             // ==========================================
 
-            else if (choice.equalsIgnoreCase("M")) {
+            while (true) {
 
                 System.out.println();
+                System.out.println("----------------------------------------------");
                 System.out.println(
-                        "Enter email numbers separated by commas."
+                        "EMAIL: " + emailId
                 );
+                System.out.println("----------------------------------------------");
 
-                System.out.println(
-                        "Example: 1,3,6,8"
-                );
+                System.out.println("1. Enter New Message");
+                System.out.println("2. Display Existing Messages");
+                System.out.println("3. Check Existing Messages");
+                System.out.println("0. Exit to Main Menu");
 
-                System.out.print(
-                        "Enter email numbers : "
-                );
+                System.out.print("Enter your choice : ");
 
-                String input =
+                String choice =
                         scanner.nextLine().trim();
 
-                String[] numbers =
-                        input.split(",");
+                // ======================================
+                // EXIT TO MAIN MENU
+                // ======================================
 
-                Set<Integer> selectedNumbers =
-                        new LinkedHashSet<>();
-
-                boolean invalidInput = false;
-
-                for (String number : numbers) {
-
-                    try {
-
-                        int emailNumber =
-                                Integer.parseInt(
-                                        number.trim()
-                                );
-
-                        if (emailNumber >= 1 &&
-                                emailNumber <= emails.size()) {
-
-                            selectedNumbers.add(
-                                    emailNumber
-                            );
-
-                        } else {
-
-                            invalidInput = true;
-                        }
-
-                    } catch (NumberFormatException ex) {
-
-                        invalidInput = true;
-                    }
+                if (choice.equals("0")) {
+                    break;
                 }
 
-                if (invalidInput ||
-                        selectedNumbers.isEmpty()) {
+                // ======================================
+                // ENTER NEW MESSAGE
+                // ======================================
+
+                if (choice.equals("1")) {
+
+                    System.out.println();
+                    System.out.println("----------------------------------------------");
+                    System.out.println("ENTER NEW MESSAGE");
+                    System.out.println("----------------------------------------------");
+
+                    System.out.print("Enter Subject : ");
+
+                    String subject =
+                            scanner.nextLine().trim();
+
+                    System.out.print("Enter Message : ");
+
+                    String body =
+                            scanner.nextLine().trim();
+
+                    int nextMessageId =
+                            EmailReader.getNextMessageId(
+                                    emails,
+                                    emailId
+                            );
+
+                    EmailReader.addMessage(
+                            filePath,
+                            emailId,
+                            subject,
+                            body,
+                            nextMessageId
+                    );
+
+                    emails =
+                            EmailReader.readEmails(filePath);
+
+                    userMessages =
+                            EmailReader.getMessagesForEmail(
+                                    emails,
+                                    emailId
+                            );
+
+                    System.out.println();
+                    System.out.println("----------------------------------------------");
+                    System.out.println("MESSAGE STORED SUCCESSFULLY");
+                    System.out.println("----------------------------------------------");
+
+                    System.out.println(
+                            "Message ID : " + nextMessageId
+                    );
+
+                    System.out.println(
+                            "Total Messages : "
+                                    + userMessages.size()
+                    );
+
+                    /*
+                     * NEW FEATURE:
+                     * Automatically analyse the newly added
+                     * message instead of requiring another menu.
+                     */
 
                     System.out.println();
                     System.out.println(
-                            "Invalid email selection."
+                            "Running automatic spam analysis..."
                     );
 
+                    Email newEmail = null;
+
+                    for (Email email : userMessages) {
+
+                        if (email.getMessageId() == nextMessageId) {
+                            newEmail = email;
+                            break;
+                        }
+                    }
+
+                    if (newEmail != null) {
+
+                        analyzeEmail(
+                                newEmail,
+                                spamPatterns,
+                                featureScores,
+                                ahoCorasick,
+                                rules
+                        );
+                    }
+
+                    break;
+                }
+
+                // ======================================
+                // DISPLAY EXISTING MESSAGES
+                // ======================================
+
+                else if (choice.equals("2")) {
+
+                    displayMessages(userMessages);
+
+                    while (true) {
+
+                        System.out.println();
+                        System.out.println("----------------------------------------------");
+                        System.out.println("1. Check Messages");
+                        System.out.println("2. Return to Email Menu");
+                        System.out.println("----------------------------------------------");
+
+                        System.out.print(
+                                "Enter your choice : "
+                        );
+
+                        String displayChoice =
+                                scanner.nextLine().trim();
+
+                        // ==================================
+                        // CHECK MESSAGES
+                        // ==================================
+
+                        if (displayChoice.equals("1")) {
+
+                            analyzeAllMessages(
+                                    userMessages,
+                                    spamPatterns,
+                                    featureScores,
+                                    ahoCorasick,
+                                    rules
+                            );
+
+                            break;
+                        }
+
+                        // ==================================
+                        // RETURN
+                        // ==================================
+
+                        else if (displayChoice.equals("2")) {
+                            break;
+                        }
+
+                        else {
+                            System.out.println(
+                                    "Invalid choice."
+                            );
+                        }
+                    }
+                }
+
+                // ======================================
+                // CHECK EXISTING MESSAGES
+                // ======================================
+
+                else if (choice.equals("3")) {
+
+                    System.out.println();
+                    System.out.println("----------------------------------------------");
+                    System.out.println("NOTICE");
+                    System.out.println("----------------------------------------------");
+                    System.out.println("Existing messages will be analyzed.");
+                    System.out.println("The previous analysis report will be replaced.");
+
+                    analyzeAllMessages(
+                            userMessages,
+                            spamPatterns,
+                            featureScores,
+                            ahoCorasick,
+                            rules
+                    );
+                }
+
+                // ======================================
+                // INVALID OPTION
+                // ======================================
+
+                else {
+
+                    System.out.println();
                     System.out.println(
-                            "Please enter numbers from 1 to "
-                                    + emails.size()
-                    );
-
-                    scanner.close();
-                    return;
-                }
-
-                for (int emailNumber :
-                        selectedNumbers) {
-
-                    selectedEmails.add(
-                            emails.get(emailNumber - 1)
+                            "Invalid choice."
                     );
                 }
-
-            }
-
-            // ==========================================
-            // INVALID CHOICE
-            // ==========================================
-
-            else {
-
-                System.out.println();
-                System.out.println(
-                        "Invalid choice."
-                );
-
-                System.out.println(
-                        "Please enter a number from 1 to "
-                                + emails.size()
-                                + ", A, M, or 0."
-                );
-
-                scanner.close();
-                return;
             }
         }
+    }
 
-        scanner.close();
+    // ==========================================
+    // DISPLAY MESSAGES
+    // ==========================================
 
-        // ==========================================
-        // SELECTED EMAIL SUMMARY
-        // ==========================================
+    private static void displayMessages(
+            List<Email> messages) {
 
         System.out.println();
         System.out.println("==============================================");
-        System.out.println("SELECTED EMAILS");
+        System.out.println("             EXISTING MESSAGES");
         System.out.println("==============================================");
 
-        for (Email email : selectedEmails) {
+        if (messages.isEmpty()) {
+
+            System.out.println("No messages found.");
+            return;
+        }
+
+        System.out.println(
+                "Email ID : "
+                        + messages.get(0).getEmailId()
+        );
+
+        System.out.println(
+                "Total Messages : "
+                        + messages.size()
+        );
+
+        for (Email email : messages) {
+
+            System.out.println();
+            System.out.println("----------------------------------------------");
 
             System.out.println(
-                    "Email " + email.getId()
+                    "Message " + email.getMessageId()
+            );
+
+            System.out.println(
+                    "Subject : "
+                            + email.getSubject()
+            );
+
+            System.out.println(
+                    "Message : "
+                            + email.getBody()
             );
         }
 
         System.out.println(
-                "Total Selected : "
-                        + selectedEmails.size()
+                "----------------------------------------------"
         );
+    }
 
-        // ==========================================
-        // ANALYSIS
-        // ==========================================
+    // ==========================================
+    // ANALYZE ALL MESSAGES
+    // ==========================================
+
+    private static void analyzeAllMessages(
+            List<Email> messages,
+            String[] spamPatterns,
+            int[] featureScores,
+            AhoCorasick ahoCorasick,
+            Map<String, Set<String>> rules) {
+
+        // Clear the previous report before generating a fresh report.
+        String oldReportPath = "data/spam_analysis_report.txt";
+        File oldReport = new File(oldReportPath);
+        if (oldReport.exists()) {
+            if (oldReport.delete()) {
+                System.out.println("Previous analysis report cleared.");
+            } else {
+                System.out.println("Warning: Could not clear previous analysis report.");
+            }
+        }
 
         int spamCount = 0;
         int notSpamCount = 0;
 
-        for (Email email : selectedEmails) {
+        List<Integer> spamMessageIds =
+                new ArrayList<>();
+
+        List<Integer> notSpamMessageIds =
+                new ArrayList<>();
+
+        // NEW FEATURE DATA
+
+        Map<String, Integer> categoryCount =
+                new LinkedHashMap<>();
+
+        Map<String, Integer> keywordFrequency =
+                new HashMap<>();
+
+        for (Email email : messages) {
 
             boolean isSpam =
                     analyzeEmail(
@@ -319,23 +410,114 @@ String[] spamPatterns =
 
                 spamCount++;
 
+                spamMessageIds.add(
+                        email.getMessageId()
+                );
+
             } else {
 
                 notSpamCount++;
+
+                notSpamMessageIds.add(
+                        email.getMessageId()
+                );
+            }
+
+            // Collect statistics
+
+            String text =
+                    TextPreprocessor.cleanText(
+                            email.getFullText()
+                    );
+
+            List<String> matches =
+                    ahoCorasick.search(text);
+
+            String category =
+                    detectCategory(matches);
+
+            categoryCount.put(
+                    category,
+                    categoryCount.getOrDefault(category, 0) + 1
+            );
+
+            for (String keyword : matches) {
+
+                keywordFrequency.put(
+                        keyword,
+                        keywordFrequency.getOrDefault(keyword, 0) + 1
+                );
             }
         }
 
         // ==========================================
-        // FINAL REPORT
+        // FINAL EMAIL REPORT
         // ==========================================
 
         System.out.println();
         System.out.println();
 
         ReportGenerator.generateSummary(
-                selectedEmails,
+                messages,
                 spamCount,
                 notSpamCount
+        );
+
+        // ==========================================
+        // MESSAGE IDs
+        // ==========================================
+
+        System.out.println();
+
+        System.out.println(
+                "Spam Message IDs     : "
+                        + getMessageIdsText(
+                                spamMessageIds
+                        )
+        );
+
+        System.out.println(
+                "Not Spam Message IDs : "
+                        + getMessageIdsText(
+                                notSpamMessageIds
+                        )
+        );
+
+        // ==========================================
+        // NEW FEATURE 1 - STATISTICS
+        // ==========================================
+
+        displayStatistics(
+                messages.size(),
+                spamCount,
+                notSpamCount
+        );
+
+        // ==========================================
+        // NEW FEATURE 2 - CATEGORY DISTRIBUTION
+        // ==========================================
+
+        displayCategoryStatistics(categoryCount);
+
+        // ==========================================
+        // NEW FEATURE 3 - TOP SPAM KEYWORDS
+        // ==========================================
+
+        displayTopKeywords(keywordFrequency);
+
+        // ==========================================
+        // NEW FEATURE 4 - AUTOMATIC REPORT EXPORT
+        // ==========================================
+
+        exportReport(
+                messages,
+                spamPatterns,
+                ahoCorasick
+        );
+
+        System.out.println();
+        System.out.println(
+                "=============================================="
         );
 
         // ==========================================
@@ -348,7 +530,7 @@ String[] spamPatterns =
         System.out.println("----------------------------------------------");
 
         ParallelEmailProcessor.processEmails(
-                selectedEmails
+                messages
         );
 
         // ==========================================
@@ -360,7 +542,6 @@ String[] spamPatterns =
         System.out.println("             ANALYSIS COMPLETED");
         System.out.println("==============================================");
     }
-
 
     // ==========================================
     // EMAIL ANALYSIS
@@ -385,13 +566,21 @@ String[] spamPatterns =
         System.out.println();
         System.out.println();
         System.out.println("==============================================");
+
         System.out.println(
-                "EMAIL " + email.getId()
+                "EMAIL " + email.getEmailId()
         );
+
         System.out.println("==============================================");
 
         System.out.println(
-                "Subject : " + email.getSubject()
+                "Message ID : "
+                        + email.getMessageId()
+        );
+
+        System.out.println(
+                "Subject : "
+                        + email.getSubject()
         );
 
         System.out.println();
@@ -408,7 +597,6 @@ String[] spamPatterns =
         for (String pattern : spamPatterns) {
 
             if (KMP.search(text, pattern)) {
-
                 kmpMatches.add(pattern);
             }
         }
@@ -438,7 +626,6 @@ String[] spamPatterns =
         for (String pattern : spamPatterns) {
 
             if (RabinKarp.search(text, pattern)) {
-
                 rabinKarpMatches.add(pattern);
             }
         }
@@ -468,7 +655,6 @@ String[] spamPatterns =
         for (String pattern : spamPatterns) {
 
             if (ZAlgorithm.search(text, pattern)) {
-
                 zMatches.add(pattern);
             }
         }
@@ -528,8 +714,15 @@ String[] spamPatterns =
                 if (ahoMatches.get(i)
                         .equals(spamPatterns[j])) {
 
-                    detectedScores[i] =
-                            featureScores[j];
+                    if (j < featureScores.length) {
+
+                        detectedScores[i] =
+                                featureScores[j];
+
+                    } else {
+
+                        detectedScores[i] = 4;
+                    }
 
                     break;
                 }
@@ -645,6 +838,144 @@ String[] spamPatterns =
         );
 
         // ======================================
+        // 9. SPAM CATEGORY
+        // ======================================
+
+        String category =
+                detectCategory(ahoMatches);
+
+        System.out.println();
+        System.out.println("----------------------------------------------");
+        System.out.println("9. SPAM CATEGORY");
+        System.out.println("----------------------------------------------");
+
+        System.out.println(
+                "Detected Category : "
+                        + category
+        );
+
+        // ======================================
+        // 10. CONFIDENCE SCORE
+        // ======================================
+
+        double confidence =
+                calculateConfidence(
+                        bestDPScore
+                );
+
+        System.out.println();
+        System.out.println("----------------------------------------------");
+        System.out.println("10. CONFIDENCE SCORE");
+        System.out.println("----------------------------------------------");
+
+        System.out.printf(
+                "Confidence : %.2f%%%n",
+                confidence
+        );
+
+        // ======================================
+        // 11. RISK LEVEL
+        // ======================================
+
+        String riskLevel =
+                getRiskLevel(bestDPScore);
+
+        System.out.println();
+        System.out.println("----------------------------------------------");
+        System.out.println("11. RISK LEVEL");
+        System.out.println("----------------------------------------------");
+
+        System.out.println(
+                "Risk Level : "
+                        + riskLevel
+        );
+
+        // ======================================
+        // 12. URL DETECTION
+        // ======================================
+
+        List<String> urls =
+                detectUrls(email.getFullText());
+
+        System.out.println();
+        System.out.println("----------------------------------------------");
+        System.out.println("12. URL DETECTION");
+        System.out.println("----------------------------------------------");
+
+        System.out.println(
+                "URLs Found : "
+                        + urls.size()
+        );
+
+        if (urls.isEmpty()) {
+
+            System.out.println(
+                    "URLs : None"
+            );
+
+        } else {
+
+            for (String url : urls) {
+                System.out.println(
+                        "  - " + url
+                );
+            }
+        }
+
+        // ======================================
+        // 13. SUSPICIOUS URL DETECTION
+        // ======================================
+
+        List<String> suspiciousUrls =
+                detectSuspiciousUrls(urls);
+
+        System.out.println();
+        System.out.println("----------------------------------------------");
+        System.out.println("13. SUSPICIOUS URL DETECTION");
+        System.out.println("----------------------------------------------");
+
+        System.out.println(
+                "Suspicious URLs : "
+                        + suspiciousUrls.size()
+        );
+
+        if (suspiciousUrls.isEmpty()) {
+
+            System.out.println(
+                    "Suspicious URLs : None"
+            );
+
+        } else {
+
+            for (String url : suspiciousUrls) {
+
+                System.out.println(
+                        "  - " + url
+                );
+            }
+        }
+
+        // ======================================
+        // 14. DETAILED ANALYSIS
+        // ======================================
+
+        System.out.println();
+        System.out.println("----------------------------------------------");
+        System.out.println("14. DETAILED ANALYSIS");
+        System.out.println("----------------------------------------------");
+
+        displayDetailedAnalysis(
+                ahoMatches,
+                category,
+                confidence,
+                riskLevel,
+                urls,
+                suspiciousUrls,
+                networkFlow,
+                selectedRules
+        );
+
+        // ======================================
         // FINAL CLASSIFICATION
         // ======================================
 
@@ -688,6 +1019,23 @@ String[] spamPatterns =
             );
 
             System.out.println(
+                    "  - Risk level : "
+                            + riskLevel
+            );
+
+            System.out.printf(
+                    "  - Confidence : %.2f%%%n",
+                    confidence
+            );
+
+            if (!suspiciousUrls.isEmpty()) {
+
+                System.out.println(
+                        "  - Suspicious URLs detected."
+                );
+            }
+
+            System.out.println(
                     "  - Score reached the spam threshold."
             );
 
@@ -717,6 +1065,11 @@ String[] spamPatterns =
                     "  - Spam threshold : 8"
             );
 
+            System.out.printf(
+                    "  - Confidence : %.2f%%%n",
+                    confidence
+            );
+
             System.out.println(
                     "  - Score did not reach the spam threshold."
             );
@@ -731,22 +1084,625 @@ String[] spamPatterns =
         );
     }
 
+    // ==========================================
+    // FEATURE 1 - CATEGORY DETECTION
+    // ==========================================
+
+    private static String detectCategory(
+            List<String> matches) {
+
+        if (matches.isEmpty()) {
+            return "NOT SPAM";
+        }
+
+        for (String match : matches) {
+
+            if (match.equals("free prize")
+                    || match.equals("lottery")
+                    || match.equals("claim your reward")) {
+
+                return "PRIZE SCAM";
+            }
+        }
+
+        for (String match : matches) {
+
+            if (match.equals("password")
+                    || match.equals("account verification")
+                    || match.equals("urgent")) {
+
+                return "ACCOUNT SCAM";
+            }
+        }
+
+        for (String match : matches) {
+
+            if (match.equals("bank details")
+                    || match.equals("claim your reward")) {
+
+                return "FINANCIAL SCAM";
+            }
+        }
+
+        for (String match : matches) {
+
+            if (match.equals("click here")
+                    || match.equals("urgent")) {
+
+                return "PROMOTIONAL / CLICK SPAM";
+            }
+        }
+
+        return "GENERAL SPAM";
+    }
 
     // ==========================================
-    // DISPLAY MATCHES
+    // FEATURE 2 - CONFIDENCE SCORE
+    // ==========================================
+
+    private static double calculateConfidence(
+            int score) {
+
+        /*
+         * Maximum Bitmask DP score:
+         * 3 selected features x 4 points = 12.
+         */
+
+        double confidence =
+                (score / 12.0) * 100.0;
+
+        if (confidence > 100) {
+            confidence = 100;
+        }
+
+        if (confidence < 0) {
+            confidence = 0;
+        }
+
+        return confidence;
+    }
+
+    // ==========================================
+    // FEATURE 3 - RISK LEVEL
+    // ==========================================
+
+    private static String getRiskLevel(
+            int score) {
+
+        if (score >= 8) {
+            return "HIGH";
+        }
+
+        if (score >= 4) {
+            return "MEDIUM";
+        }
+
+        return "LOW";
+    }
+
+    // ==========================================
+    // FEATURE 4 - URL DETECTION
+    // ==========================================
+
+    private static List<String> detectUrls(
+            String text) {
+
+        List<String> urls =
+                new ArrayList<>();
+
+        String regex =
+                "(https?://[^\\s]+|www\\.[^\\s]+)";
+
+        java.util.regex.Pattern pattern =
+                java.util.regex.Pattern.compile(
+                        regex,
+                        java.util.regex.Pattern.CASE_INSENSITIVE
+                );
+
+        java.util.regex.Matcher matcher =
+                pattern.matcher(text);
+
+        while (matcher.find()) {
+
+            String url =
+                    matcher.group();
+
+            // Remove common punctuation
+            url = url.replaceAll(
+                    "[.,!?;:]+$",
+                    ""
+            );
+
+            if (!urls.contains(url)) {
+                urls.add(url);
+            }
+        }
+
+        return urls;
+    }
+
+    // ==========================================
+    // FEATURE 5 - SUSPICIOUS URL DETECTION
+    // ==========================================
+
+    private static List<String> detectSuspiciousUrls(
+            List<String> urls) {
+
+        List<String> suspicious =
+                new ArrayList<>();
+
+        String[] suspiciousWords = {
+                "login",
+                "verify",
+                "verification",
+                "password",
+                "account",
+                "bank",
+                "reward",
+                "prize",
+                "free",
+                "claim",
+                "urgent",
+                "secure"
+        };
+
+        for (String url : urls) {
+
+            String lower =
+                    url.toLowerCase();
+
+            boolean found = false;
+
+            for (String word : suspiciousWords) {
+
+                if (lower.contains(word)) {
+
+                    found = true;
+                    break;
+                }
+            }
+
+            if (found && !suspicious.contains(url)) {
+
+                suspicious.add(url);
+            }
+        }
+
+        return suspicious;
+    }
+
+    // ==========================================
+    // FEATURE 6 - DETAILED ANALYSIS
+    // ==========================================
+
+    private static void displayDetailedAnalysis(
+            List<String> matches,
+            String category,
+            double confidence,
+            String riskLevel,
+            List<String> urls,
+            List<String> suspiciousUrls,
+            int networkFlow,
+            List<String> selectedRules) {
+
+        System.out.println(
+                "Spam Category      : " + category
+        );
+
+        System.out.printf(
+                "Confidence         : %.2f%%%n",
+                confidence
+        );
+
+        System.out.println(
+                "Risk Level         : " + riskLevel
+        );
+
+        System.out.println(
+                "Matched Keywords   : " + matches.size()
+        );
+
+        System.out.println(
+                "URLs Detected      : " + urls.size()
+        );
+
+        System.out.println(
+                "Suspicious URLs    : "
+                        + suspiciousUrls.size()
+        );
+
+        System.out.println(
+                "Network Flow       : " + networkFlow
+        );
+
+        System.out.println(
+                "Rules Selected     : "
+                        + selectedRules.size()
+        );
+    }
+
+    // ==========================================
+    // FEATURE 7 - STATISTICS
+    // ==========================================
+
+    private static void displayStatistics(
+            int total,
+            int spam,
+            int notSpam) {
+
+        System.out.println();
+        System.out.println("----------------------------------------------");
+        System.out.println("AUTOMATIC STATISTICS");
+        System.out.println("----------------------------------------------");
+
+        double spamPercentage = 0;
+        double notSpamPercentage = 0;
+
+        if (total > 0) {
+
+            spamPercentage =
+                    (spam * 100.0) / total;
+
+            notSpamPercentage =
+                    (notSpam * 100.0) / total;
+        }
+
+        System.out.println(
+                "Total Messages : " + total
+        );
+
+        System.out.println(
+                "Spam Messages  : " + spam
+        );
+
+        System.out.println(
+                "Not Spam       : " + notSpam
+        );
+
+        System.out.printf(
+                "Spam Percentage : %.2f%%%n",
+                spamPercentage
+        );
+
+        System.out.printf(
+                "Not Spam Percentage : %.2f%%%n",
+                notSpamPercentage
+        );
+    }
+
+    // ==========================================
+    // FEATURE 8 - CATEGORY STATISTICS
+    // ==========================================
+
+    private static void displayCategoryStatistics(
+            Map<String, Integer> categoryCount) {
+
+        System.out.println();
+        System.out.println("----------------------------------------------");
+        System.out.println("CATEGORY DISTRIBUTION");
+        System.out.println("----------------------------------------------");
+
+        if (categoryCount.isEmpty()) {
+
+            System.out.println(
+                    "No categories available."
+            );
+
+            return;
+        }
+
+        for (Map.Entry<String, Integer> entry :
+                categoryCount.entrySet()) {
+
+            System.out.println(
+                    entry.getKey()
+                            + " : "
+                            + entry.getValue()
+            );
+        }
+    }
+
+    // ==========================================
+    // FEATURE 9 - TOP SPAM KEYWORDS
+    // ==========================================
+
+    private static void displayTopKeywords(
+            Map<String, Integer> keywordFrequency) {
+
+        System.out.println();
+        System.out.println("----------------------------------------------");
+        System.out.println("TOP SPAM KEYWORDS");
+        System.out.println("----------------------------------------------");
+
+        if (keywordFrequency.isEmpty()) {
+
+            System.out.println(
+                    "No spam keywords detected."
+            );
+
+            return;
+        }
+
+        List<Map.Entry<String, Integer>> entries =
+                new ArrayList<>(
+                        keywordFrequency.entrySet()
+                );
+
+        entries.sort(
+                (a, b) ->
+                        Integer.compare(
+                                b.getValue(),
+                                a.getValue()
+                        )
+        );
+
+        int limit =
+                Math.min(5, entries.size());
+
+        for (int i = 0; i < limit; i++) {
+
+            Map.Entry<String, Integer> entry =
+                    entries.get(i);
+
+            System.out.println(
+                    (i + 1)
+                            + ". "
+                            + entry.getKey()
+                            + " -> "
+                            + entry.getValue()
+                            + " occurrence(s)"
+            );
+        }
+    }
+
+    // ==========================================
+    // FEATURE 10 - EXPORT REPORT
+    // ==========================================
+
+    private static void exportReport(
+            List<Email> messages,
+            String[] spamPatterns,
+            AhoCorasick ahoCorasick) {
+
+        String reportPath =
+                "data/spam_analysis_report.txt";
+
+        int spamCount = 0;
+        int notSpamCount = 0;
+
+        try {
+
+            FileWriter writer =
+                    new FileWriter(reportPath);
+
+            writer.write(
+                    "==============================================\n"
+            );
+
+            writer.write(
+                    "        EMAIL SPAM ANALYSIS REPORT\n"
+            );
+
+            writer.write(
+                    "==============================================\n\n"
+            );
+
+            for (Email email : messages) {
+
+                String text =
+                        TextPreprocessor.cleanText(
+                                email.getFullText()
+                        );
+
+                List<String> matches =
+                        ahoCorasick.search(text);
+
+                int score =
+                        Math.min(
+                                matches.size() * 4,
+                                12
+                        );
+
+                boolean spam =
+                        SpamAnalyzer.isSpam(score);
+
+                if (spam) {
+                    spamCount++;
+                } else {
+                    notSpamCount++;
+                }
+
+                String category =
+                        detectCategory(matches);
+
+                double confidence =
+                        calculateConfidence(score);
+
+                String risk =
+                        getRiskLevel(score);
+
+                List<String> urls =
+                        detectUrls(email.getFullText());
+
+                List<String> suspiciousUrls =
+                        detectSuspiciousUrls(urls);
+
+                writer.write(
+                        "----------------------------------------------\n"
+                );
+
+                writer.write(
+                        "Email ID      : "
+                                + email.getEmailId()
+                                + "\n"
+                );
+
+                writer.write(
+                        "Message ID    : "
+                                + email.getMessageId()
+                                + "\n"
+                );
+
+                writer.write(
+                        "Subject       : "
+                                + email.getSubject()
+                                + "\n"
+                );
+
+                writer.write(
+                        "Classification: "
+                                + SpamAnalyzer.getResult(score)
+                                + "\n"
+                );
+
+                writer.write(
+                        "Category      : "
+                                + category
+                                + "\n"
+                );
+
+                writer.write(
+                        String.format(
+                                "Confidence    : %.2f%%%n",
+                                confidence
+                        )
+                );
+
+                writer.write(
+                        "Risk Level    : "
+                                + risk
+                                + "\n"
+                );
+
+                writer.write(
+                        "Spam Score    : "
+                                + score
+                                + "\n"
+                );
+
+                writer.write(
+                        "Keywords      : "
+                                + getMatchesText(matches)
+                                + "\n"
+                );
+
+                writer.write(
+                        "URLs           : "
+                                + getMatchesText(urls)
+                                + "\n"
+                );
+
+                writer.write(
+                        "Suspicious URLs: "
+                                + getMatchesText(
+                                        suspiciousUrls
+                                )
+                                + "\n"
+                );
+
+                writer.write("\n");
+            }
+
+            writer.write(
+                    "==============================================\n"
+            );
+
+            writer.write(
+                    "SUMMARY\n"
+            );
+
+            writer.write(
+                    "==============================================\n"
+            );
+
+            writer.write(
+                    "Total Messages : "
+                            + messages.size()
+                            + "\n"
+            );
+
+            writer.write(
+                    "Spam Messages  : "
+                            + spamCount
+                            + "\n"
+            );
+
+            writer.write(
+                    "Not Spam       : "
+                            + notSpamCount
+                            + "\n"
+            );
+
+            double percentage = 0;
+
+            if (!messages.isEmpty()) {
+
+                percentage =
+                        (spamCount * 100.0)
+                                / messages.size();
+            }
+
+            writer.write(
+                    String.format(
+                            "Spam Percentage: %.2f%%%n",
+                            percentage
+                    )
+            );
+
+            writer.close();
+
+            System.out.println();
+            System.out.println("----------------------------------------------");
+            System.out.println("REPORT EXPORT");
+            System.out.println("----------------------------------------------");
+
+            System.out.println(
+                    "Report successfully exported to:"
+            );
+
+            System.out.println(
+                    reportPath
+            );
+
+        } catch (IOException e) {
+
+            System.out.println(
+                    "Unable to export report."
+            );
+
+            System.out.println(
+                    "Error: " + e.getMessage()
+            );
+        }
+    }
+
+    // ==========================================
+    // DISPLAY MATCHED PATTERNS
     // ==========================================
 
     private static String getMatchesText(
             List<String> matches) {
 
         if (matches.isEmpty()) {
-
             return "None";
         }
 
         return matches.toString();
     }
 
+    // ==========================================
+    // DISPLAY MESSAGE IDs
+    // ==========================================
+
+    private static String getMessageIdsText(
+            List<Integer> messageIds) {
+
+        if (messageIds.isEmpty()) {
+            return "None";
+        }
+
+        return messageIds.toString();
+    }
 
     // ==========================================
     // CO4 - NETWORK FLOW
@@ -784,26 +1740,26 @@ String[] spamPatterns =
 
             } else if (
                     feature.equals("password")
-                    ||
-                    feature.equals(
-                            "account verification")) {
+                            ||
+                            feature.equals(
+                                    "account verification")) {
 
                 capacity[0][2]++;
 
             } else if (
                     feature.equals("free prize")
-                    ||
-                    feature.equals("lottery")
-                    ||
-                    feature.equals(
-                            "claim your reward")) {
+                            ||
+                            feature.equals("lottery")
+                            ||
+                            feature.equals(
+                                    "claim your reward")) {
 
                 capacity[0][3]++;
 
             } else if (
                     feature.equals("click here")
-                    ||
-                    feature.equals("urgent")) {
+                            ||
+                            feature.equals("urgent")) {
 
                 capacity[0][4]++;
             }
@@ -814,7 +1770,6 @@ String[] spamPatterns =
 
         return network.maxFlow(0, 5);
     }
-
 
     // ==========================================
     // CO5 - SPAM RULE SETS

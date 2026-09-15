@@ -62,7 +62,7 @@ The project combines multiple algorithmic techniques including string matching, 
 ## Project Structure
 
 ```text
-EmailSpamAnalysis/
+EmailContentSpamAnalysis/
 │
 ├── src/
 │   ├── Main.java

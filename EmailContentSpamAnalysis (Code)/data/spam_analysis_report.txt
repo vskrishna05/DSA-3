@@ -1,0 +1,141 @@
+==============================================
+        EMAIL SPAM ANALYSIS REPORT
+==============================================
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 1
+Subject       : Notes for tomorrow
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 2
+Subject       : Project update
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 3
+Subject       : Class notes shared
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 4
+Subject       : Project meeting schedule
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 5
+Subject       : Assignment submission reminder
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 6
+Subject       : Team lunch this Saturday
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 7
+Subject       : Project files updated
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 8
+Subject       : Leave request discussion
+Classification: NOT SPAM
+Category      : NOT SPAM
+Confidence    : 0.00%
+Risk Level    : LOW
+Spam Score    : 0
+Keywords      : None
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 9
+Subject       : Password verification required
+Classification: SPAM
+Category      : PROMOTIONAL / CLICK SPAM
+Confidence    : 100.00%
+Risk Level    : HIGH
+Spam Score    : 12
+Keywords      : [password verification, click here, immediately]
+URLs           : None
+Suspicious URLs: None
+
+----------------------------------------------
+Email ID      : user1@gmail.com
+Message ID    : 10
+Subject       : Urgent account verification required
+Classification: SPAM
+Category      : ACCOUNT SCAM
+Confidence    : 100.00%
+Risk Level    : HIGH
+Spam Score    : 12
+Keywords      : [urgent, account verification, click here, verify your account]
+URLs           : None
+Suspicious URLs: None
+
+==============================================
+SUMMARY
+==============================================
+Total Messages : 10
+Spam Messages  : 2
+Not Spam       : 8
+Spam Percentage: 20.00%

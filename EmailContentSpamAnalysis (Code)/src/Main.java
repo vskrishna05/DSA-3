@@ -102,6 +102,7 @@ public class Main {
                 System.out.println("1. Enter New Message");
                 System.out.println("2. Display Existing Messages");
                 System.out.println("3. Check Existing Messages");
+                System.out.println("4. Algorithm Comparison (All 9 Algorithms)");
                 System.out.println("0. Exit to Main Menu");
 
                 System.out.print("Enter your choice : ");
@@ -285,6 +286,30 @@ public class Main {
                             featureScores,
                             ahoCorasick,
                             rules
+                    );
+                }
+
+                // ======================================
+                // ALGORITHM COMPARISON
+                // ======================================
+
+                else if (choice.equals("4")) {
+
+                    System.out.println();
+                    System.out.println("----------------------------------------------");
+                    System.out.println("ALGORITHM COMPARISON");
+                    System.out.println("----------------------------------------------");
+                    System.out.println(
+                            "Comparing 9 algorithms for: " + emailId
+                    );
+                    System.out.println(
+                            "Messages included: " + userMessages.size()
+                    );
+
+                    // IMPORTANT: compare only the selected user's messages.
+                    AlgorithmComparison.compareAll(
+                            userMessages,
+                            spamPatterns
                     );
                 }
 

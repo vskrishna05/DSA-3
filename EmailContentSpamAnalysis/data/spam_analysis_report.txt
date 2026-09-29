@@ -1,0 +1,99 @@
+==============================================
+        EMAIL SPAM ANALYSIS REPORT
+==============================================
+
+----------------------------------------------
+EMAIL : user1999@gmail.com
+Message ID : 1
+Subject : Meeting rescheduled
+Message : Today's meeting has been moved to 10 AM on Friday. Kindly confirm your availability.
+
+Classification : NOT SPAM
+Category : NOT SPAM
+Confidence : 0.00%
+Risk Level : LOW
+Spam Score : 0
+Keywords : []
+URLs : []
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user1999@gmail.com
+Message ID : 2
+Subject : Security alert!!!
+Message : Your device is infected with a virus. Download our antivirus now at http://bit.ly/x9Kd2 to protect your data.
+
+Classification : NOT SPAM
+Category : GENERAL SPAM
+Confidence : 33.33%
+Risk Level : MEDIUM
+Spam Score : 4
+Keywords : [security alert]
+URLs : [http://bit.ly/x9Kd2]
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user1999@gmail.com
+Message ID : 3
+Subject : Class notes shared
+Message : I have shared the class notes from today's lecture. Please check the shared folder and let me know if anything is missing.
+
+Classification : NOT SPAM
+Category : NOT SPAM
+Confidence : 0.00%
+Risk Level : LOW
+Spam Score : 0
+Keywords : []
+URLs : []
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user1999@gmail.com
+Message ID : 4
+Subject : Dear beneficiary
+Message : I am a government official and need your help to transfer Rs. 1,00,000. You will receive 30% commission. Reply urgently.
+
+Classification : SPAM
+Category : ACCOUNT SCAM
+Confidence : 100.00%
+Risk Level : HIGH
+Spam Score : 12
+Keywords : [urgent, urgently, beneficiary]
+URLs : []
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user1999@gmail.com
+Message ID : 5
+Subject : Free vacation package
+Message : You have won an all-expenses-paid vacation. Book within 24 hours by paying the tax at http://free-gift.click/offer.
+
+Classification : SPAM
+Category : GENERAL SPAM
+Confidence : 100.00%
+Risk Level : HIGH
+Spam Score : 12
+Keywords : [free, free gift, you have won]
+URLs : [http://free-gift.click/offer]
+Suspicious URLs : [http://free-gift.click/offer]
+
+----------------------------------------------
+EMAIL : user1999@gmail.com
+Message ID : 6
+Subject : Cheap medicines online
+Message : Buy medicines online without prescription at 80% off. Fast delivery and free shipping. Order at http://claim-now.xyz/win.
+
+Classification : SPAM
+Category : GENERAL SPAM
+Confidence : 100.00%
+Risk Level : HIGH
+Spam Score : 12
+Keywords : [free, free shipping, claim now, cheap medicine]
+URLs : [http://claim-now.xyz/win]
+Suspicious URLs : [http://claim-now.xyz/win]
+
+==============================================
+SUMMARY
+==============================================
+Total Messages : 6 | Spam : 3 | Not Spam : 3
+Spam Percentage : 50.00%

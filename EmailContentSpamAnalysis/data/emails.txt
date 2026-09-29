@@ -74657,3 +74657,26 @@ EMAIL_ID: user2000@gmail.com
 MESSAGE_ID: 10
 SUBJECT: Project meeting schedule
 BODY: The project meeting is scheduled for Saturday at 4 PM in Room 204. Please be on time.
+EMAIL_ID: user1069@gmail.com
+MESSAGE_ID: 7
+SUBJECT: Leave
+BODY: I need a leave on this wednesday.
+
+
+EMAIL_ID: user56@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Hi
+BODY: Hi!Hello you won a lottery.
+
+
+EMAIL_ID: user1000@gmail.com
+MESSAGE_ID: 9
+SUBJECT: Leave
+BODY: Grant me a leave buddy!
+
+
+EMAIL_ID: user799@gmail.com
+MESSAGE_ID: 10
+SUBJECT: Leave
+BODY: Hi! I need a Leave. Please.
+

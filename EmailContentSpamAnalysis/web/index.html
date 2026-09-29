@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Content Spam Analysis | Advanced DSA Detection Engine</title>
+    <meta name="description" content="Intelligent email spam detection and algorithm benchmarking system powered by Aho-Corasick, KMP, Rabin-Karp, Bitmask DP, and Edmonds-Karp.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation Bar -->
+        <header class="app-header">
+            <div class="brand">
+                <div class="brand-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="m9 12 2 2 4-4"/>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <h1>Email Content Spam Analysis</h1>
+                </div>
+            </div>
+
+            <div class="header-stats">
+                <div class="stat-pill">
+                    <span class="stat-dot"></span>
+                    <span class="stat-label">Server:</span>
+                    <span class="stat-val" id="serverStatus">Connected (Port 8080)</span>
+                </div>
+                <div class="stat-pill">
+                    <span class="stat-label">Database:</span>
+                    <span class="stat-val" id="totalDbStats">14,935 Emails</span>
+                </div>
+                <button class="btn btn-secondary btn-sm" id="btnRefresh" title="Reload Database">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 21h5v-5"/></svg>
+                    Refresh
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <div class="main-layout">
+            <!-- Sidebar: User Accounts -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h2>Email Accounts</h2>
+                    <span class="badge" id="accountCountBadge">2000</span>
+                </div>
+
+                <div class="search-box">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="text" id="accountSearch" placeholder="Search user ID or email..." autocomplete="off">
+                </div>
+
+                <div class="account-list" id="accountListContainer">
+                    <div class="loading-state">Loading accounts...</div>
+                </div>
+            </aside>
+
+            <!-- Center Viewport -->
+            <main class="content-viewport">
+                <!-- Navigation Tabs -->
+                <nav class="nav-tabs" role="tablist">
+                    <button class="tab-btn active" id="tabInboxBtn" data-tab="inboxTab">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        User Inbox &amp; Scan
+                    </button>
+                    <button class="tab-btn" id="tabScannerBtn" data-tab="scannerTab">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                        Interactive Live Scanner
+                    </button>
+                    <button class="tab-btn" id="tabBenchmarkBtn" data-tab="benchmarkTab">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                        Algorithm Benchmark Arena
+                    </button>
+                    <button class="tab-btn" id="tabComposeBtn" data-tab="composeTab">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                        Compose New Message
+                    </button>
+                </nav>
+
+                <!-- TAB 1: User Inbox -->
+                <section class="tab-pane active" id="inboxTab">
+                    <div class="user-banner">
+                        <div class="user-info">
+                            <span class="user-label">Selected Account</span>
+                            <h2 class="user-email" id="currentAccountEmail">user1@gmail.com</h2>
+                            <span class="user-meta" id="currentAccountMeta">Loading messages...</span>
+                        </div>
+                        <div class="banner-actions">
+                            <button class="btn btn-primary" id="btnScanAllUserEmails">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                                Scan All Messages
+                            </button>
+                            <button class="btn btn-secondary" id="btnCompareUserEmails">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                Benchmark 9 Algorithms
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Email List Container -->
+                    <div class="email-cards-list" id="emailCardsContainer">
+                        <div class="loading-state">Loading user emails...</div>
+                    </div>
+                </section>
+
+                <!-- TAB 2: Live Custom Scanner -->
+                <section class="tab-pane" id="scannerTab">
+                    <div class="scanner-grid">
+                        <div class="card scanner-form-card">
+                            <div class="card-header">
+                                <h3>Test Any Custom Email Text</h3>
+                                <div class="template-selector">
+                                    <label for="templatePreset">Load Scam Preset:</label>
+                                    <select id="templatePreset">
+                                        <option value="">-- Choose a template --</option>
+                                        <option value="crypto">Crypto 7-Day Double Profit Scam</option>
+                                        <option value="kyc">HDFC Bank KYC Expired Phishing</option>
+                                        <option value="prize">Claim Free iPhone 15 Prize Scam</option>
+                                        <option value="clean">Legitimate Team Meeting Notes</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="scannerSubject">Email Subject</label>
+                                    <input type="text" id="scannerSubject" placeholder="e.g. Urgent: Account verification required" value="Guaranteed profit in 7 days">
+                                </div>
+                                <div class="form-group">
+                                    <label for="scannerBody">Email Body Content</label>
+                                    <textarea id="scannerBody" rows="7" placeholder="Type or paste complete email message here...">Invest now and double your money in 7 days. Guaranteed returns with our crypto plan. Join at http://free-gift.click/offer.</textarea>
+                                </div>
+                                <button class="btn btn-primary btn-block" id="btnRunScanner">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                                    Run Multi-Algorithmic Analysis
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Scanner Output Details -->
+                        <div class="card scanner-result-card" id="scannerResultContainer">
+                            <div class="empty-state">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                                <p>Click <strong>"Run Multi-Algorithmic Analysis"</strong> to inspect this email across all 9 algorithms.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- TAB 3: Algorithm Benchmark Arena -->
+                <section class="tab-pane" id="benchmarkTab">
+                    <div class="benchmark-header">
+                        <div>
+                            <h2>9-Algorithm Benchmark Arena</h2>
+                            <p class="section-desc">Comparing String Matchers, Dynamic Programming, Network Flow, and Concurrency on actual email data.</p>
+                        </div>
+                        <button class="btn btn-primary" id="btnRunBenchmarkAgain">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                            Re-Run Live Benchmark
+                        </button>
+                    </div>
+
+                    <div class="benchmark-summary-cards" id="benchmarkSummaryCards">
+                        <div class="metric-card highlight">
+                            <span class="metric-label">Fastest String Matcher</span>
+                            <h3 class="metric-val" id="fastestStringName">Aho-Corasick</h3>
+                            <span class="metric-sub" id="fastestStringReason">Single-pass Trie traversal (O(N))</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Overall Lowest Latency</span>
+                            <h3 class="metric-val" id="overallFastestName">Edmonds-Karp</h3>
+                            <span class="metric-sub" id="overallFastestReason">Small 6-node threat graph</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Patterns Benchmark</span>
+                            <h3 class="metric-val">212 Keywords</h3>
+                            <span class="metric-sub">Dictionary Size</span>
+                        </div>
+                    </div>
+
+                    <!-- Benchmark Table -->
+                    <div class="card benchmark-table-card">
+                        <div class="table-responsive">
+                            <table class="data-table" id="benchmarkDataTable">
+                                <thead>
+                                    <tr>
+                                        <th>Algorithm</th>
+                                        <th>Domain / Category</th>
+                                        <th>Theoretical Complexity</th>
+                                        <th>Execution Latency</th>
+                                        <th>Output Summary</th>
+                                        <th>Visual Comparison</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="benchmarkTableBody">
+                                    <tr><td colspan="6" class="loading-td">Run a benchmark to populate real-time execution times...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Algorithmic Deep Dive Cards -->
+                    <div class="algorithm-info-grid">
+                        <div class="info-card">
+                            <h4>String Matchers: Single vs Multi-Pattern</h4>
+                            <p>KMP, Rabin-Karp, and Z-Algorithm must scan the email <strong>212 separate times</strong> (once per keyword). In contrast, <strong>Aho-Corasick</strong> builds a Trie with failure transitions and finds all keywords in <strong>one single pass</strong> ($O(N)$), yielding a 10x–25x speedup.</p>
+                        </div>
+                        <div class="info-card">
+                            <h4>Bitmask Dynamic Programming ($O(2^N \cdot N)$)</h4>
+                            <p>Evaluates subset combinations of detected suspicious features using binary bit shifts to find the combination that maximizes the spam threat score within cardinality limits.</p>
+                        </div>
+                        <div class="info-card">
+                            <h4>Edmonds-Karp Max Network Flow ($O(V \cdot E^2)$)</h4>
+                            <p>Models the threat topology as a flow network: Source &rarr; Fraud Categories (Financial, Prize, Account, Click) &rarr; Threat Sink. Keyword hits augment edge capacities to determine bottleneck throughput.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- TAB 4: Compose Email -->
+                <section class="tab-pane" id="composeTab">
+                    <div class="card compose-card">
+                        <div class="card-header">
+                            <h2>Compose &amp; Store New Email</h2>
+                            <p class="card-subtitle">Appends record to <code>data/emails.txt</code> with automatic sequential Message ID generation.</p>
+                        </div>
+                        <div class="card-body">
+                            <form id="composeEmailForm">
+                                <div class="form-group">
+                                    <label for="composeUser">Recipient / Target Account</label>
+                                    <input type="email" id="composeUser" placeholder="e.g. user1@gmail.com" required value="user1@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="composeSubject">Email Subject</label>
+                                    <input type="text" id="composeSubject" placeholder="Enter clear subject line" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="composeBody">Email Content</label>
+                                    <textarea id="composeBody" rows="6" placeholder="Enter email body text..." required></textarea>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-primary" id="btnSubmitCompose">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                                        Save Email &amp; Auto-Analyze
+                                    </button>
+                                </div>
+                            </form>
+                            <div id="composeStatusAlert" class="alert-box" style="display:none;"></div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Email Inspection Modal -->
+    <div class="modal-backdrop" id="emailModal">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div class="modal-title-wrap">
+                    <span class="badge" id="modalVerdictBadge">SPAM</span>
+                    <h3 id="modalSubject">Subject</h3>
+                </div>
+                <button class="modal-close" id="modalCloseBtn">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBodyContainer">
+                <!-- Injected via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

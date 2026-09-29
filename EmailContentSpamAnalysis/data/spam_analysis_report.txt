@@ -3,97 +3,127 @@
 ==============================================
 
 ----------------------------------------------
-EMAIL : user1999@gmail.com
+EMAIL : user5@gmail.com
 Message ID : 1
-Subject : Meeting rescheduled
-Message : Today's meeting has been moved to 10 AM on Friday. Kindly confirm your availability.
-
-Classification : NOT SPAM
-Category : NOT SPAM
-Confidence : 0.00%
-Risk Level : LOW
-Spam Score : 0
-Keywords : []
-URLs : []
-Suspicious URLs : []
-
-----------------------------------------------
-EMAIL : user1999@gmail.com
-Message ID : 2
-Subject : Security alert!!!
-Message : Your device is infected with a virus. Download our antivirus now at http://bit.ly/x9Kd2 to protect your data.
-
-Classification : NOT SPAM
-Category : GENERAL SPAM
-Confidence : 33.33%
-Risk Level : MEDIUM
-Spam Score : 4
-Keywords : [security alert]
-URLs : [http://bit.ly/x9Kd2]
-Suspicious URLs : []
-
-----------------------------------------------
-EMAIL : user1999@gmail.com
-Message ID : 3
-Subject : Class notes shared
-Message : I have shared the class notes from today's lecture. Please check the shared folder and let me know if anything is missing.
-
-Classification : NOT SPAM
-Category : NOT SPAM
-Confidence : 0.00%
-Risk Level : LOW
-Spam Score : 0
-Keywords : []
-URLs : []
-Suspicious URLs : []
-
-----------------------------------------------
-EMAIL : user1999@gmail.com
-Message ID : 4
-Subject : Dear beneficiary
-Message : I am a government official and need your help to transfer Rs. 1,00,000. You will receive 30% commission. Reply urgently.
-
-Classification : SPAM
-Category : ACCOUNT SCAM
-Confidence : 100.00%
-Risk Level : HIGH
-Spam Score : 12
-Keywords : [urgent, urgently, beneficiary]
-URLs : []
-Suspicious URLs : []
-
-----------------------------------------------
-EMAIL : user1999@gmail.com
-Message ID : 5
-Subject : Free vacation package
-Message : You have won an all-expenses-paid vacation. Book within 24 hours by paying the tax at http://free-gift.click/offer.
+Subject : Guaranteed profit in 7 days
+Message : Invest now and double your money in 7 days. Guaranteed returns with our crypto plan. Join at http://free-gift.click/offer.
 
 Classification : SPAM
 Category : GENERAL SPAM
 Confidence : 100.00%
 Risk Level : HIGH
 Spam Score : 12
-Keywords : [free, free gift, you have won]
+Keywords : [free, free gift, double your money, guaranteed profit, guaranteed returns, guaranteed]
 URLs : [http://free-gift.click/offer]
 Suspicious URLs : [http://free-gift.click/offer]
 
 ----------------------------------------------
-EMAIL : user1999@gmail.com
-Message ID : 6
-Subject : Cheap medicines online
-Message : Buy medicines online without prescription at 80% off. Fast delivery and free shipping. Order at http://claim-now.xyz/win.
+EMAIL : user5@gmail.com
+Message ID : 2
+Subject : Your KYC has expired
+Message : Dear customer, your HDFC Bank KYC has expired. Share your PAN number and OTP to keep your account active.
+
+Classification : NOT SPAM
+Category : NOT SPAM
+Confidence : 0.00%
+Risk Level : LOW
+Spam Score : 0
+Keywords : []
+URLs : []
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user5@gmail.com
+Message ID : 3
+Subject : Your SBI account is suspended
+Message : We noticed unusual activity. Confirm your card number and OTP at http://free-gift.click/offer within 24 hours or your account will be closed.
+
+Classification : SPAM
+Category : GENERAL SPAM
+Confidence : 66.67%
+Risk Level : HIGH
+Spam Score : 8
+Keywords : [free, free gift]
+URLs : [http://free-gift.click/offer]
+Suspicious URLs : [http://free-gift.click/offer]
+
+----------------------------------------------
+EMAIL : user5@gmail.com
+Message ID : 4
+Subject : Claim your prize before midnight
+Message : This is your last chance to claim an iPhone 15. Click http://tinyurl.com/4hj8k now or lose it forever.
+
+Classification : SPAM
+Category : GENERAL SPAM
+Confidence : 66.67%
+Risk Level : HIGH
+Spam Score : 8
+Keywords : [last chance, claim your prize]
+URLs : [http://tinyurl.com/4hj8k]
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user5@gmail.com
+Message ID : 5
+Subject : Lowest loan rates
+Message : Lowest loan rates guaranteed. Get up to $5,000 with no credit check and instant approval. Apply at http://free-gift.click/offer.
 
 Classification : SPAM
 Category : GENERAL SPAM
 Confidence : 100.00%
 Risk Level : HIGH
 Spam Score : 12
-Keywords : [free, free shipping, claim now, cheap medicine]
-URLs : [http://claim-now.xyz/win]
-Suspicious URLs : [http://claim-now.xyz/win]
+Keywords : [free, free gift, guaranteed]
+URLs : [http://free-gift.click/offer]
+Suspicious URLs : [http://free-gift.click/offer]
+
+----------------------------------------------
+EMAIL : user5@gmail.com
+Message ID : 6
+Subject : Holiday announcement
+Message : The college will remain closed on Saturday due to a local holiday. Classes will resume the next day.
+
+Classification : NOT SPAM
+Category : NOT SPAM
+Confidence : 0.00%
+Risk Level : LOW
+Spam Score : 0
+Keywords : []
+URLs : []
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user5@gmail.com
+Message ID : 7
+Subject : Congratulations, you are a winner!
+Message : Your email was picked in our lucky draw. You have won an Amazon gift card of $500. Reply with your bank details to receive it.
+
+Classification : SPAM
+Category : FINANCIAL SCAM
+Confidence : 100.00%
+Risk Level : HIGH
+Spam Score : 12
+Keywords : [bank details, winner, you are a winner, you have won, congratulations]
+URLs : []
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user5@gmail.com
+Message ID : 8
+Subject : Leave
+Message : I dont need leave boss.
+
+Classification : NOT SPAM
+Category : NOT SPAM
+Confidence : 0.00%
+Risk Level : LOW
+Spam Score : 0
+Keywords : []
+URLs : []
+Suspicious URLs : []
 
 ==============================================
 SUMMARY
 ==============================================
-Total Messages : 6 | Spam : 3 | Not Spam : 3
-Spam Percentage : 50.00%
+Total Messages : 8 | Spam : 5 | Not Spam : 3
+Spam Percentage : 62.50%

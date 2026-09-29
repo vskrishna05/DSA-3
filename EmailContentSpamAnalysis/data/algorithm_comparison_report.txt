@@ -1,69 +1,69 @@
 ==================================================
          ALGORITHM COMPARISON REPORT
 ==================================================
-User ID Tested : user1999@gmail.com
-Messages Tested: 6 emails
+User ID Tested : user5@gmail.com
+Messages Tested: 8 emails
 Keywords Tested: 212 patterns
-Keywords Found : 10 unique keywords [security alert, beneficiary, urgent, urgently, free, you have won, free gift, cheap medicine, free shipping, claim now]
-Generated Date : Mon Sep 28 10:50:25 IST 2026
+Keywords Found : 13 unique keywords [guaranteed, guaranteed profit, double your money, guaranteed returns, free, free gift, claim your prize, last chance, congratulations, you are a winner, winner, you have won, bank details]
+Generated Date : Tue Sep 29 15:28:07 IST 2026
 ---------------------------------------------------------------------------------------------
 Algorithm           Category             Complexity     Time (ms)    Result Summary          
 ---------------------------------------------------------------------------------------------
-KMP                 String Matching      O(N + M)         32.139 ms   11 matches              
-Rabin-Karp          String Matching      O(N + M) avg     23.320 ms   11 matches              
-Z-Algorithm         String Matching      O(N + M)          7.145 ms   11 matches              
-Aho-Corasick        Multi-Pattern Search O(N + sum(M))     4.130 ms   11 matches              
-Bitmask DP          Dynamic Programming  O(2^N * N)        5.975 ms   Optimal score = 64      
-Edmonds-Karp        Network Flow         O(V * E^2)        0.055 ms   Max Flow = 27           
-Greedy Set Cover    Approximation        O(|U| * |S|)     15.631 ms   Selected 43 rules       
-Randomized Hashing  Randomized Algorithm O(N)              0.383 ms   Hashed 6 emails         
-Parallel Processing Concurrency          O(N / P)          3.819 ms   Processed on 12 threads (6 emails)
+KMP                 String Matching      O(N + M)         28.072 ms   18 matches              
+Rabin-Karp          String Matching      O(N + M) avg     19.451 ms   18 matches              
+Z-Algorithm         String Matching      O(N + M)         13.620 ms   18 matches              
+Aho-Corasick        Multi-Pattern Search O(N + sum(M))     2.656 ms   18 matches              
+Bitmask DP          Dynamic Programming  O(2^N * N)        6.398 ms   Optimal score = 99      
+Edmonds-Karp        Network Flow         O(V * E^2)        0.109 ms   Max Flow = 36           
+Greedy Set Cover    Approximation        O(|U| * |S|)     11.018 ms   Selected 43 rules       
+Randomized Hashing  Randomized Algorithm O(N)              0.195 ms   Hashed 8 emails         
+Parallel Processing Concurrency          O(N / P)          4.581 ms   Processed on 12 threads (8 emails)
 ---------------------------------------------------------------------------------------------
-Fastest String Matcher : Aho-Corasick (4.130 ms)
-Overall Lowest Latency : Edmonds-Karp (0.055 ms)
+Fastest String Matcher : Aho-Corasick (2.656 ms)
+Overall Lowest Latency : Edmonds-Karp (0.109 ms)
 
-CONCRETE EXAMPLES: HOW EACH ALGORITHM OPERATED ON USER1999@GMAIL.COM'S MESSAGES:
-Example Messages Evaluated from user1999@gmail.com:
-  [Msg #1] Subject: Meeting rescheduled | Body: Today's meeting has been moved to 10 AM on Friday. Kindly confirm your availability.
-  [Msg #2] Subject: Security alert!!! | Body: Your device is infected with a virus. Download our antivirus now at http://bit.ly/x9Kd2 to protect your data.
-  [Msg #3] Subject: Class notes shared | Body: I have shared the class notes from today's lecture. Please check the shared folder and let me know if anything is missing.
+CONCRETE EXAMPLES: HOW EACH ALGORITHM OPERATED ON USER5@GMAIL.COM'S MESSAGES:
+Example Messages Evaluated from user5@gmail.com:
+  [Msg #1] Subject: Guaranteed profit in 7 days | Body: Invest now and double your money in 7 days. Guaranteed returns with our crypto plan. Join at http://free-gift.click/offer.
+  [Msg #2] Subject: Your KYC has expired | Body: Dear customer, your HDFC Bank KYC has expired. Share your PAN number and OTP to keep your account active.
+  [Msg #3] Subject: Your SBI account is suspended | Body: We noticed unusual activity. Confirm your card number and OTP at http://free-gift.click/offer within 24 hours or your account will be closed.
 
 1. KMP (Knuth-Morris-Pratt):
-   - Searched 6 emails of user1999@gmail.com for 212 patterns individually.
+   - Searched 8 emails of user5@gmail.com for 212 patterns individually.
    - For each pattern, built the LPS prefix array to skip character backtrack on mismatch.
    - Total passes: 212 distinct search passes across the text.
 
 2. Rabin-Karp:
-   - Computed rolling polynomial hashes for pattern windows across user1999@gmail.com's email bodies.
+   - Computed rolling polynomial hashes for pattern windows across user5@gmail.com's email bodies.
    - Verified full character match only when hash values matched.
 
 3. Z-Algorithm:
-   - Created 'pattern$text' strings for user1999@gmail.com's messages and built Z-box intervals.
+   - Created 'pattern$text' strings for user5@gmail.com's messages and built Z-box intervals.
    - Executed in linear time per keyword pattern.
 
 4. Aho-Corasick (Fastest String Matcher):
    - Constructed a single Trie for all 212 keywords with BFS failure links.
-   - Scanned each of user1999@gmail.com's emails in a SINGLE PASS (O(N + sum(M))).
-   - Detected all keywords simultaneously: [security alert, beneficiary, urgent, urgently, free, you have won, free gift, cheap medicine, free shipping, claim now]
+   - Scanned each of user5@gmail.com's emails in a SINGLE PASS (O(N + sum(M))).
+   - Detected all keywords simultaneously: [guaranteed, guaranteed profit, double your money, guaranteed returns, free, free gift, claim your prize, last chance, congratulations, you are a winner, winner, you have won, bank details]
 
 5. Bitmask DP:
-   - Took the detected keywords from user1999@gmail.com's messages: [security alert, beneficiary, urgent, urgently, free, you have won, free gift, cheap medicine, free shipping, claim now]
+   - Took the detected keywords from user5@gmail.com's messages: [guaranteed, guaranteed profit, double your money, guaranteed returns, free, free gift, claim your prize, last chance, congratulations, you are a winner, winner, you have won, bank details]
    - Evaluated all 2^N binary subset combinations to maximize the suspicious feature score.
 
 6. Edmonds-Karp (Overall Lowest Latency):
    - Built a 6-node flow network linking Source -> Scam Categories -> Threat Sink.
-   - Augmented capacities dynamically based on keywords found in user1999@gmail.com's messages.
+   - Augmented capacities dynamically based on keywords found in user5@gmail.com's messages.
    - Found max bottleneck threat capacity using BFS augmenting paths.
 
 7. Greedy Set Cover:
-   - Selected the minimum set of scam rules that cover all detected keywords ([security alert, beneficiary, urgent, urgently, free, you have won, free gift, cheap medicine, free shipping, claim now]).
+   - Selected the minimum set of scam rules that cover all detected keywords ([guaranteed, guaranteed profit, double your money, guaranteed returns, free, free gift, claim your prize, last chance, congratulations, you are a winner, winner, you have won, bank details]).
 
 8. Randomized Hashing:
-   - Computed polynomial rolling hashes with randomized base (256-1000) over user1999@gmail.com's emails.
+   - Computed polynomial rolling hashes with randomized base (256-1000) over user5@gmail.com's emails.
    - Protects message tamper verification against collision attacks.
 
 9. Parallel Processing:
-   - Distributed 6 emails of user1999@gmail.com across CPU worker threads.
+   - Distributed 8 emails of user5@gmail.com across CPU worker threads.
    - Preprocessed all messages concurrently using ExecutorService.
 
 HOW THE FASTEST ALGORITHM WAS SELECTED:

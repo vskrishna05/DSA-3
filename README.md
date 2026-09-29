@@ -66,24 +66,37 @@ EmailContentSpamAnalysis/
 │
 ├── src/
 │   ├── Main.java
-│   ├── AlgorithmComparision.java
+│   ├── AlgorithmComparison.java
 │   ├── Email.java
 │   ├── EmailReader.java
 │   ├── TextPreprocessor.java
+│   │
 │   ├── KMP.java
 │   ├── RabinKarp.java
 │   ├── ZAlgorithm.java
 │   ├── AhoCorasick.java
+│   │
 │   ├── BitmaskDP.java
 │   ├── EdmondsKarp.java
 │   ├── SetCoverApproximation.java
 │   ├── RandomizedHash.java
 │   ├── ParallelEmailProcessor.java
+│   │
 │   ├── SpamAnalyzer.java
 │   ├── SpamCategory.java
 │   └── ReportGenerator.java
 │
-└── data/
-    ├── emails.txt
-    ├── spam_keywords.txt
-    └── spam_analysis_report.txt
+├── web/
+│   ├── WebServer.java
+│   ├── index.html
+│   ├── app.js
+│   └── style.css
+│
+├── data/
+│   ├── emails.txt
+│   ├── spam_keywords.txt
+│   ├── spam_analysis_report.txt
+│   └── algorithm_comparison_report.txt
+│
+└── bin/
+    └── (compiled .class files)

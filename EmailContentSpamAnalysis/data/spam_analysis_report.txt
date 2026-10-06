@@ -3,25 +3,25 @@
 ==============================================
 
 ----------------------------------------------
-EMAIL : user5@gmail.com
+EMAIL : user1980@gmail.com
 Message ID : 1
-Subject : Guaranteed profit in 7 days
-Message : Invest now and double your money in 7 days. Guaranteed returns with our crypto plan. Join at http://free-gift.click/offer.
+Subject : Final notice: unpaid tax
+Message : You owe $50,000 in unpaid taxes. Pay immediately at http://secure-login-verify.top/acc or legal action will be taken against you.
 
 Classification : SPAM
 Category : GENERAL SPAM
-Confidence : 100.00%
+Confidence : 66.67%
 Risk Level : HIGH
-Spam Score : 12
-Keywords : [free, free gift, double your money, guaranteed profit, guaranteed returns, guaranteed]
-URLs : [http://free-gift.click/offer]
-Suspicious URLs : [http://free-gift.click/offer]
+Spam Score : 8
+Keywords : [immediately, final notice]
+URLs : [http://secure-login-verify.top/acc]
+Suspicious URLs : [http://secure-login-verify.top/acc]
 
 ----------------------------------------------
-EMAIL : user5@gmail.com
+EMAIL : user1980@gmail.com
 Message ID : 2
-Subject : Your KYC has expired
-Message : Dear customer, your HDFC Bank KYC has expired. Share your PAN number and OTP to keep your account active.
+Subject : Meeting rescheduled
+Message : Today's meeting has been moved to 6 PM on Monday. Kindly confirm your availability.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -33,55 +33,10 @@ URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user5@gmail.com
+EMAIL : user1980@gmail.com
 Message ID : 3
-Subject : Your SBI account is suspended
-Message : We noticed unusual activity. Confirm your card number and OTP at http://free-gift.click/offer within 24 hours or your account will be closed.
-
-Classification : SPAM
-Category : GENERAL SPAM
-Confidence : 66.67%
-Risk Level : HIGH
-Spam Score : 8
-Keywords : [free, free gift]
-URLs : [http://free-gift.click/offer]
-Suspicious URLs : [http://free-gift.click/offer]
-
-----------------------------------------------
-EMAIL : user5@gmail.com
-Message ID : 4
-Subject : Claim your prize before midnight
-Message : This is your last chance to claim an iPhone 15. Click http://tinyurl.com/4hj8k now or lose it forever.
-
-Classification : SPAM
-Category : GENERAL SPAM
-Confidence : 66.67%
-Risk Level : HIGH
-Spam Score : 8
-Keywords : [last chance, claim your prize]
-URLs : [http://tinyurl.com/4hj8k]
-Suspicious URLs : []
-
-----------------------------------------------
-EMAIL : user5@gmail.com
-Message ID : 5
-Subject : Lowest loan rates
-Message : Lowest loan rates guaranteed. Get up to $5,000 with no credit check and instant approval. Apply at http://free-gift.click/offer.
-
-Classification : SPAM
-Category : GENERAL SPAM
-Confidence : 100.00%
-Risk Level : HIGH
-Spam Score : 12
-Keywords : [free, free gift, guaranteed]
-URLs : [http://free-gift.click/offer]
-Suspicious URLs : [http://free-gift.click/offer]
-
-----------------------------------------------
-EMAIL : user5@gmail.com
-Message ID : 6
-Subject : Holiday announcement
-Message : The college will remain closed on Saturday due to a local holiday. Classes will resume the next day.
+Subject : Project meeting schedule
+Message : The project meeting is scheduled for Friday at 4 PM in the main block. Please be on time.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -93,25 +48,85 @@ URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user5@gmail.com
-Message ID : 7
-Subject : Congratulations, you are a winner!
-Message : Your email was picked in our lucky draw. You have won an Amazon gift card of $500. Reply with your bank details to receive it.
+EMAIL : user1980@gmail.com
+Message ID : 4
+Subject : You have won a lottery!
+Message : Congratulations! You have won $5,000 in our international lottery. Click http://claim-now.xyz/win to claim your prize now.
 
 Classification : SPAM
-Category : FINANCIAL SCAM
+Category : PRIZE SCAM
 Confidence : 100.00%
 Risk Level : HIGH
 Spam Score : 12
-Keywords : [bank details, winner, you are a winner, you have won, congratulations]
+Keywords : [lottery, you have won, congratulations, claim your prize, claim now]
+URLs : [http://claim-now.xyz/win]
+Suspicious URLs : [http://claim-now.xyz/win]
+
+----------------------------------------------
+EMAIL : user1980@gmail.com
+Message ID : 5
+Subject : Placement drive details
+Message : The placement drive will be held on Friday at Lab 3. Carry your resume and college ID card.
+
+Classification : NOT SPAM
+Category : NOT SPAM
+Confidence : 0.00%
+Risk Level : LOW
+Spam Score : 0
+Keywords : []
 URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user5@gmail.com
+EMAIL : user1980@gmail.com
+Message ID : 6
+Subject : Claim your free gift card
+Message : You have been selected to receive a free gift card. Complete this short survey to claim it: http://claim-now.xyz/win
+
+Classification : SPAM
+Category : GENERAL SPAM
+Confidence : 100.00%
+Risk Level : HIGH
+Spam Score : 12
+Keywords : [free, free gift, you have been selected, claim now]
+URLs : [http://claim-now.xyz/win]
+Suspicious URLs : [http://claim-now.xyz/win]
+
+----------------------------------------------
+EMAIL : user1980@gmail.com
+Message ID : 7
+Subject : Can we reschedule our call?
+Message : Something urgent came up at work. Can we move our call to Saturday at 10 AM?
+
+Classification : NOT SPAM
+Category : ACCOUNT SCAM
+Confidence : 33.33%
+Risk Level : MEDIUM
+Spam Score : 4
+Keywords : [urgent]
+URLs : []
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user1980@gmail.com
 Message ID : 8
-Subject : Leave
-Message : I dont need leave boss.
+Subject : Library books due
+Message : Your library books are due on Thursday. Please return or renew them to avoid a late fee.
+
+Classification : NOT SPAM
+Category : NOT SPAM
+Confidence : 0.00%
+Risk Level : LOW
+Spam Score : 0
+Keywords : []
+URLs : []
+Suspicious URLs : []
+
+----------------------------------------------
+EMAIL : user1980@gmail.com
+Message ID : 9
+Subject : Internship update
+Message : How is your internship going? Let me know if you need any help with the project report.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -125,5 +140,5 @@ Suspicious URLs : []
 ==============================================
 SUMMARY
 ==============================================
-Total Messages : 8 | Spam : 5 | Not Spam : 3
-Spam Percentage : 62.50%
+Total Messages : 9 | Spam : 3 | Not Spam : 6
+Spam Percentage : 33.33%

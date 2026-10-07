@@ -3,25 +3,25 @@
 ==============================================
 
 ----------------------------------------------
-EMAIL : user1980@gmail.com
+EMAIL : user100@gmail.com
 Message ID : 1
-Subject : Final notice: unpaid tax
-Message : You owe $50,000 in unpaid taxes. Pay immediately at http://secure-login-verify.top/acc or legal action will be taken against you.
+Subject : Code review feedback
+Message : I went through your code. It looks good overall, just a few small changes are needed in the main function.
 
-Classification : SPAM
-Category : GENERAL SPAM
-Confidence : 66.67%
-Risk Level : HIGH
-Spam Score : 8
-Keywords : [immediately, final notice]
-URLs : [http://secure-login-verify.top/acc]
-Suspicious URLs : [http://secure-login-verify.top/acc]
+Classification : NOT SPAM
+Category : NOT SPAM
+Confidence : 0.00%
+Risk Level : LOW
+Spam Score : 0
+Keywords : []
+URLs : []
+Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user1980@gmail.com
+EMAIL : user100@gmail.com
 Message ID : 2
-Subject : Meeting rescheduled
-Message : Today's meeting has been moved to 6 PM on Monday. Kindly confirm your availability.
+Subject : Thanks for your help
+Message : Thank you for helping me with the DBMS doubts yesterday. It really cleared my concepts.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -33,10 +33,10 @@ URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user1980@gmail.com
+EMAIL : user100@gmail.com
 Message ID : 3
-Subject : Project meeting schedule
-Message : The project meeting is scheduled for Friday at 4 PM in the main block. Please be on time.
+Subject : Happy Birthday!
+Message : Happy birthday! Wishing you a wonderful year ahead. Let's catch up over coffee soon.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -48,25 +48,10 @@ URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user1980@gmail.com
+EMAIL : user100@gmail.com
 Message ID : 4
-Subject : You have won a lottery!
-Message : Congratulations! You have won $5,000 in our international lottery. Click http://claim-now.xyz/win to claim your prize now.
-
-Classification : SPAM
-Category : PRIZE SCAM
-Confidence : 100.00%
-Risk Level : HIGH
-Spam Score : 12
-Keywords : [lottery, you have won, congratulations, claim your prize, claim now]
-URLs : [http://claim-now.xyz/win]
-Suspicious URLs : [http://claim-now.xyz/win]
-
-----------------------------------------------
-EMAIL : user1980@gmail.com
-Message ID : 5
-Subject : Placement drive details
-Message : The placement drive will be held on Friday at Lab 3. Carry your resume and college ID card.
+Subject : Meeting rescheduled
+Message : Today's meeting has been moved to 4 PM on Thursday. Kindly confirm your availability.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -78,40 +63,25 @@ URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user1980@gmail.com
-Message ID : 6
-Subject : Claim your free gift card
-Message : You have been selected to receive a free gift card. Complete this short survey to claim it: http://claim-now.xyz/win
-
-Classification : SPAM
-Category : GENERAL SPAM
-Confidence : 100.00%
-Risk Level : HIGH
-Spam Score : 12
-Keywords : [free, free gift, you have been selected, claim now]
-URLs : [http://claim-now.xyz/win]
-Suspicious URLs : [http://claim-now.xyz/win]
-
-----------------------------------------------
-EMAIL : user1980@gmail.com
-Message ID : 7
-Subject : Can we reschedule our call?
-Message : Something urgent came up at work. Can we move our call to Saturday at 10 AM?
+EMAIL : user100@gmail.com
+Message ID : 5
+Subject : Feedback form
+Message : Please fill out the course feedback form for Machine Learning. It only takes two minutes.
 
 Classification : NOT SPAM
-Category : ACCOUNT SCAM
+Category : GENERAL SPAM
 Confidence : 33.33%
 Risk Level : MEDIUM
 Spam Score : 4
-Keywords : [urgent]
+Keywords : [earn]
 URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user1980@gmail.com
-Message ID : 8
-Subject : Library books due
-Message : Your library books are due on Thursday. Please return or renew them to avoid a late fee.
+EMAIL : user100@gmail.com
+Message ID : 6
+Subject : Group project roles
+Message : I have divided the work for our group project. Please check the document and confirm your part.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -123,10 +93,10 @@ URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user1980@gmail.com
-Message ID : 9
-Subject : Internship update
-Message : How is your internship going? Let me know if you need any help with the project report.
+EMAIL : user100@gmail.com
+Message ID : 7
+Subject : Presentation slides needed
+Message : Can you send me the presentation slides before 10 AM? I need to review them once before the review.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -140,5 +110,5 @@ Suspicious URLs : []
 ==============================================
 SUMMARY
 ==============================================
-Total Messages : 9 | Spam : 3 | Not Spam : 6
-Spam Percentage : 33.33%
+Total Messages : 7 | Spam : 0 | Not Spam : 7
+Spam Percentage : 0.00%

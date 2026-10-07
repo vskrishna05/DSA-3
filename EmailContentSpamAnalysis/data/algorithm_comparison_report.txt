@@ -1,69 +1,69 @@
 ==================================================
          ALGORITHM COMPARISON REPORT
 ==================================================
-User ID Tested : user1980@gmail.com
-Messages Tested: 9 emails
+User ID Tested : user100@gmail.com
+Messages Tested: 7 emails
 Keywords Tested: 212 patterns
-Keywords Found : 11 unique keywords [final notice, immediately, you have won, lottery, congratulations, claim now, claim your prize, free, free gift, you have been selected, urgent]
-Generated Date : Wed Sep 30 09:38:49 IST 2026
+Keywords Found : 1 unique keywords [earn]
+Generated Date : Wed Oct 07 19:07:50 IST 2026
 ---------------------------------------------------------------------------------------------
 Algorithm           Category             Complexity     Time (ms)    Result Summary          
 ---------------------------------------------------------------------------------------------
-KMP                 String Matching      O(N + M)         17.928 ms   12 matches              
-Rabin-Karp          String Matching      O(N + M) avg     22.294 ms   12 matches              
-Z-Algorithm         String Matching      O(N + M)         13.933 ms   12 matches              
-Aho-Corasick        Multi-Pattern Search O(N + sum(M))     3.179 ms   12 matches              
-Bitmask DP          Dynamic Programming  O(2^N * N)        5.308 ms   Optimal score = 77      
-Edmonds-Karp        Network Flow         O(V * E^2)        0.059 ms   Max Flow = 40           
-Greedy Set Cover    Approximation        O(|U| * |S|)     13.643 ms   Selected 43 rules       
-Randomized Hashing  Randomized Algorithm O(N)              0.254 ms   Hashed 9 emails         
-Parallel Processing Concurrency          O(N / P)          7.192 ms   Processed on 12 threads (9 emails)
+KMP                 String Matching      O(N + M)         36.193 ms   1 matches               
+Rabin-Karp          String Matching      O(N + M) avg     17.353 ms   1 matches               
+Z-Algorithm         String Matching      O(N + M)          6.080 ms   1 matches               
+Aho-Corasick        Multi-Pattern Search O(N + sum(M))     3.987 ms   1 matches               
+Bitmask DP          Dynamic Programming  O(2^N * N)        3.314 ms   Optimal score = 4       
+Edmonds-Karp        Network Flow         O(V * E^2)        0.042 ms   Max Flow = 33           
+Greedy Set Cover    Approximation        O(|U| * |S|)      8.689 ms   Selected 43 rules       
+Randomized Hashing  Randomized Algorithm O(N)              0.171 ms   Hashed 7 emails         
+Parallel Processing Concurrency          O(N / P)          2.950 ms   Processed on 12 threads (7 emails)
 ---------------------------------------------------------------------------------------------
-Fastest String Matcher : Aho-Corasick (3.179 ms)
-Overall Lowest Latency : Edmonds-Karp (0.059 ms)
+Fastest String Matcher : Aho-Corasick (3.987 ms)
+Overall Lowest Latency : Edmonds-Karp (0.042 ms)
 
-CONCRETE EXAMPLES: HOW EACH ALGORITHM OPERATED ON USER1980@GMAIL.COM'S MESSAGES:
-Example Messages Evaluated from user1980@gmail.com:
-  [Msg #1] Subject: Final notice: unpaid tax | Body: You owe $50,000 in unpaid taxes. Pay immediately at http://secure-login-verify.top/acc or legal action will be taken against you.
-  [Msg #2] Subject: Meeting rescheduled | Body: Today's meeting has been moved to 6 PM on Monday. Kindly confirm your availability.
-  [Msg #3] Subject: Project meeting schedule | Body: The project meeting is scheduled for Friday at 4 PM in the main block. Please be on time.
+CONCRETE EXAMPLES: HOW EACH ALGORITHM OPERATED ON USER100@GMAIL.COM'S MESSAGES:
+Example Messages Evaluated from user100@gmail.com:
+  [Msg #1] Subject: Code review feedback | Body: I went through your code. It looks good overall, just a few small changes are needed in the main function.
+  [Msg #2] Subject: Thanks for your help | Body: Thank you for helping me with the DBMS doubts yesterday. It really cleared my concepts.
+  [Msg #3] Subject: Happy Birthday! | Body: Happy birthday! Wishing you a wonderful year ahead. Let's catch up over coffee soon.
 
 1. KMP (Knuth-Morris-Pratt):
-   - Searched 9 emails of user1980@gmail.com for 212 patterns individually.
+   - Searched 7 emails of user100@gmail.com for 212 patterns individually.
    - For each pattern, built the LPS prefix array to skip character backtrack on mismatch.
    - Total passes: 212 distinct search passes across the text.
 
 2. Rabin-Karp:
-   - Computed rolling polynomial hashes for pattern windows across user1980@gmail.com's email bodies.
+   - Computed rolling polynomial hashes for pattern windows across user100@gmail.com's email bodies.
    - Verified full character match only when hash values matched.
 
 3. Z-Algorithm:
-   - Created 'pattern$text' strings for user1980@gmail.com's messages and built Z-box intervals.
+   - Created 'pattern$text' strings for user100@gmail.com's messages and built Z-box intervals.
    - Executed in linear time per keyword pattern.
 
 4. Aho-Corasick (Fastest String Matcher):
    - Constructed a single Trie for all 212 keywords with BFS failure links.
-   - Scanned each of user1980@gmail.com's emails in a SINGLE PASS (O(N + sum(M))).
-   - Detected all keywords simultaneously: [final notice, immediately, you have won, lottery, congratulations, claim now, claim your prize, free, free gift, you have been selected, urgent]
+   - Scanned each of user100@gmail.com's emails in a SINGLE PASS (O(N + sum(M))).
+   - Detected all keywords simultaneously: [earn]
 
 5. Bitmask DP:
-   - Took the detected keywords from user1980@gmail.com's messages: [final notice, immediately, you have won, lottery, congratulations, claim now, claim your prize, free, free gift, you have been selected, urgent]
+   - Took the detected keywords from user100@gmail.com's messages: [earn]
    - Evaluated all 2^N binary subset combinations to maximize the suspicious feature score.
 
 6. Edmonds-Karp (Overall Lowest Latency):
    - Built a 6-node flow network linking Source -> Scam Categories -> Threat Sink.
-   - Augmented capacities dynamically based on keywords found in user1980@gmail.com's messages.
+   - Augmented capacities dynamically based on keywords found in user100@gmail.com's messages.
    - Found max bottleneck threat capacity using BFS augmenting paths.
 
 7. Greedy Set Cover:
-   - Selected the minimum set of scam rules that cover all detected keywords ([final notice, immediately, you have won, lottery, congratulations, claim now, claim your prize, free, free gift, you have been selected, urgent]).
+   - Selected the minimum set of scam rules that cover all detected keywords ([earn]).
 
 8. Randomized Hashing:
-   - Computed polynomial rolling hashes with randomized base (256-1000) over user1980@gmail.com's emails.
+   - Computed polynomial rolling hashes with randomized base (256-1000) over user100@gmail.com's emails.
    - Protects message tamper verification against collision attacks.
 
 9. Parallel Processing:
-   - Distributed 9 emails of user1980@gmail.com across CPU worker threads.
+   - Distributed 7 emails of user100@gmail.com across CPU worker threads.
    - Preprocessed all messages concurrently using ExecutorService.
 
 HOW THE FASTEST ALGORITHM WAS SELECTED:

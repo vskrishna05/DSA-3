@@ -3,10 +3,10 @@
 ==============================================
 
 ----------------------------------------------
-EMAIL : user100@gmail.com
+EMAIL : user500@gmail.com
 Message ID : 1
-Subject : Code review feedback
-Message : I went through your code. It looks good overall, just a few small changes are needed in the main function.
+Subject : Team lunch this Saturday
+Message : We are planning a team lunch this Saturday. Let me know your food preference by Thursday.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -18,10 +18,10 @@ URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user100@gmail.com
+EMAIL : user500@gmail.com
 Message ID : 2
-Subject : Thanks for your help
-Message : Thank you for helping me with the DBMS doubts yesterday. It really cleared my concepts.
+Subject : Project files updated
+Message : I uploaded the latest project files to the shared folder. Please review them and share your feedback.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -33,55 +33,25 @@ URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user100@gmail.com
+EMAIL : user500@gmail.com
 Message ID : 3
-Subject : Happy Birthday!
-Message : Happy birthday! Wishing you a wonderful year ahead. Let's catch up over coffee soon.
+Subject : Lowest loan rates
+Message : Lowest loan rates guaranteed. Get up to $50,000 with no credit check and instant approval. Apply at http://claim-now.xyz/win.
 
-Classification : NOT SPAM
-Category : NOT SPAM
-Confidence : 0.00%
-Risk Level : LOW
-Spam Score : 0
-Keywords : []
-URLs : []
-Suspicious URLs : []
-
-----------------------------------------------
-EMAIL : user100@gmail.com
-Message ID : 4
-Subject : Meeting rescheduled
-Message : Today's meeting has been moved to 4 PM on Thursday. Kindly confirm your availability.
-
-Classification : NOT SPAM
-Category : NOT SPAM
-Confidence : 0.00%
-Risk Level : LOW
-Spam Score : 0
-Keywords : []
-URLs : []
-Suspicious URLs : []
-
-----------------------------------------------
-EMAIL : user100@gmail.com
-Message ID : 5
-Subject : Feedback form
-Message : Please fill out the course feedback form for Machine Learning. It only takes two minutes.
-
-Classification : NOT SPAM
+Classification : SPAM
 Category : GENERAL SPAM
-Confidence : 33.33%
-Risk Level : MEDIUM
-Spam Score : 4
-Keywords : [earn]
-URLs : []
-Suspicious URLs : []
+Confidence : 66.67%
+Risk Level : HIGH
+Spam Score : 8
+Keywords : [claim now, guaranteed]
+URLs : [http://claim-now.xyz/win]
+Suspicious URLs : [http://claim-now.xyz/win]
 
 ----------------------------------------------
-EMAIL : user100@gmail.com
-Message ID : 6
-Subject : Group project roles
-Message : I have divided the work for our group project. Please check the document and confirm your part.
+EMAIL : user500@gmail.com
+Message ID : 4
+Subject : Internship update
+Message : How is your internship going? Let me know if you need any help with the project report.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -93,10 +63,10 @@ URLs : []
 Suspicious URLs : []
 
 ----------------------------------------------
-EMAIL : user100@gmail.com
-Message ID : 7
-Subject : Presentation slides needed
-Message : Can you send me the presentation slides before 10 AM? I need to review them once before the review.
+EMAIL : user500@gmail.com
+Message ID : 5
+Subject : Meeting rescheduled
+Message : Today's meeting has been moved to 9 AM on Wednesday. Kindly confirm your availability.
 
 Classification : NOT SPAM
 Category : NOT SPAM
@@ -110,5 +80,5 @@ Suspicious URLs : []
 ==============================================
 SUMMARY
 ==============================================
-Total Messages : 7 | Spam : 0 | Not Spam : 7
-Spam Percentage : 0.00%
+Total Messages : 5 | Spam : 1 | Not Spam : 4
+Spam Percentage : 20.00%
